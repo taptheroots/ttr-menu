@@ -43,9 +43,9 @@ const menuData = [
 
     // ── RICE BOWLS ────────────────────────────────────────────
     { section: "food", cat: "Rice Bowls", name: "Green Garden Fresh", price: "330", img: "images/Green Garden Fresh.jpg.jpeg", desc: "Garden-fresh exotic veggies sautéed and served over organic rice—colorful, crunchy, and earthy" },
-    { section: "food", cat: "Rice Bowls", name: "Crispy Mushroom (Fry/Sauté)", price: "345", img: "images/Crispy mushroom.jpg.jpeg", desc: "Fried/sauté mushrooms over fragrant rice, infused with organic spices and herbs, with two infused gravies" },
+    { section: "food", cat: "Rice Bowls", name: "Crispy Mushroom (Fry/Sauté)", price: "345", img: "images/Crispy mushroom rice bowl.jpeg", desc: "Fried/sauté mushrooms over fragrant rice, infused with organic spices and herbs, with two infused gravies" },
     { section: "food", cat: "Rice Bowls", name: "Corn Affair (Fry/Sauté)", price: "310", img: "images/Corn Afire.jpg.jpeg", desc: "Golden corn and baby corn with fire-roasted spices over organic rice—smoky-sweet, rustic, and naturally comforting" },
-    { section: "food", cat: "Rice Bowls", name: "Exotic Veggie (Fry/Sauté)", price: "345", img: "images/Veggie exotic.jpg.jpeg", desc: "Farm-fresh exotic veggies, baby corn, mushrooms tossed in spices over organic rice" },
+    { section: "food", cat: "Rice Bowls", name: "Exotic Veggie (Fry/Sauté)", price: "345", img: "images/Exotic veg crunch.jpg.jpeg", desc: "Farm-fresh exotic veggies, baby corn, mushrooms tossed in spices over organic rice" },
     { section: "food", cat: "Rice Bowls", name: "Thai Green Curry 🌶️", price: "335", img: "images/Thai green curry.jpg.jpeg", desc: "Thai green curry infused with coconut milk with exotic veggies over organic rice—creamy, herbal, and soulfully nourishing" },
     { section: "food", cat: "Rice Bowls", name: "Rajma Chola Masala", price: "260", img: "images/Rajma chola masala.jpg.jpeg", desc: "Rajma and chola in desi masalas over organic rice—hearty, spicy, and comforting" },
     { section: "food", cat: "Rice Bowls", name: "Shahi Paneer Makhani", price: "370", img: "images/Shahi paneer makhni.jpg.jpeg", desc: "Creamy shahi paneer in buttery makhni gravy over organic rice—regal, spiced, and soulfully nourishing" },
@@ -53,6 +53,16 @@ const menuData = [
     { section: "food", cat: "Rice Bowls", name: "Chilli Paneer 🌶️", price: "340", img: "images/Chilli paneer.jpg.jpeg", desc: "Tender organic paneer in fiery chilli sauce over wholesome rice—bold, spicy Indo-Chinese fusion" },
     { section: "food", cat: "Rice Bowls", name: "Ragi Manchurian 🌶️", price: "250", img: "images/Ragi Manchurian.jpg.jpeg", desc: "Crispy ragi manchurian over organic rice, blending ancient grains with zesty spices" },
     { section: "food", cat: "Rice Bowls", name: "Mughlai Dry Fruit Delight", price: "420", img: "images/Mughlai Dry fruit.jpg.jpeg", desc: "Mughlai spices and dry fruits slow-cooked over organic rice—warm, nutty, aromatic indulgence" },
+
+     // ── APPETIZERS ──────────────────────────────────────────────
+    { section: "food", cat: "Appetizers", name: "Millet Nacho Bhel ⭐", price: "260", img: "images/Millet nacho bhel.jpg.jpeg", desc: "Millet Nachos with in-house fresh cheese sauce and Salsa" },
+    { section: "food", cat: "Appetizers", name: "European Paneer Pakoda", price: "250", img: "images/European paneer pakoda.jpg.jpeg", desc: "Stuffed with spicy Thai green paste, sourdough coated, lightly fried in organic peanut oil" },
+    { section: "food", cat: "Appetizers", name: "Indo-European Chola Bhatura ⭐", price: "140", img: "images/Info European chola bhatura.jpg.jpeg", desc: "Mini pleasure with hummus and in-house sauces with freshly made chola" },
+    { section: "food", cat: "Appetizers", name: "Chilli Paneer Dry", price: "190", img: "images/Chilli paneer dry.jpg.jpeg", desc: "Classic preparation of paneer with sauces" },
+    { section: "food", cat: "Appetizers", name: "Chilli Ragi Manchurian Dry", price: "170", img: "images/Ragi Manchurian dry.jpg.jpeg", desc: "Classic preparation of ragi manchurian with sauces" },
+    // { section: "food", cat: "Appetizers", name: "Onion Rings ⭐", price: "150", img: "images/Onion rings.jpg.jpeg", desc: "Sourdough coated onion rings, lightly fried in organic peanut oil" },
+    // { section: "food", cat: "Appetizers", name: "Exotic Veg Crunch", price: "180", img: "images/Veggie exotic toast.jpg.jpeg", desc: "Seasonal exotic veggies, sourdough coated, lightly fried in organic peanut oil" },
+    // { section: "food", cat: "Appetizers", name: "Crispy Mushroom", price: "160", img: "images/Crispy mushroom.jpg.jpeg", desc: "Fresh mushrooms, sourdough coated, lightly fried in organic peanut oil" },
 
     // ── PIZZA ─────────────────────────────────────────────────────
     // — Sourdough —
@@ -68,11 +78,11 @@ const menuData = [
     { section: "food", cat: "Pizza", name: "TTR Makhani Paneer Crisp ⭐", price: "210 / 300", img: "images/TTR Makhni Paneer crisp.jpg.jpeg", desc: "🌿 Thin wheat crust, papad-like crunch OR regular wheat crust | Makhni sauce, fresh paneer with Indian twist" },
 
 
-    // ── SOYA CHAAP ────────────────────────────────────────────
-    { section: "food", cat: "Soya Chaap", name: "Chilli Garlic Soya Chaap ⭐", price: "265 / 320", img: "", desc: "Chilli garlic soya chaap stir-fried spicy savory Indo-Chinese. (Paratha / Rice)" },
-    { section: "food", cat: "Soya Chaap", name: "Malai Soya Chaap", price: "370 / 390", img: "", desc: "Malai soya chaap cooked creamy with mild spices and rich flavor. (Paratha / Rice)" },
-    { section: "food", cat: "Soya Chaap", name: "Tandoori Soya Chaap 🌶️", price: "330 / 370", img: "", desc: "Marinated, grilled smoky chaap with in-house tandoori sauce. (Paratha / Rice)" },
-    { section: "food", cat: "Soya Chaap", name: "Crispy Soya 65", price: "320 / 340", img: "", desc: "Spiced, fried, crunchy, tangy, flavorful. (Paratha / Rice)" },
+    // ── SOYA BOWLS ────────────────────────────────────────────
+    { section: "food", cat: "Soya Bowls", name: "Chilli Garlic Soya Chaap ⭐", price: "265 / 320", img: "", desc: "Chilli garlic soya chaap stir-fried spicy savory Indo-Chinese. (Paratha / Rice)" },
+    { section: "food", cat: "Soya Bowls", name: "Malai Soya Chaap", price: "370 / 390", img: "", desc: "Malai soya chaap cooked creamy with mild spices and rich flavor. (Paratha / Rice)" },
+    { section: "food", cat: "Soya Bowls", name: "Tandoori Soya Chaap 🌶️", price: "330 / 370", img: "", desc: "Marinated, grilled smoky chaap with in-house tandoori sauce. (Paratha / Rice)" },
+    { section: "food", cat: "Soya Bowls", name: "Crispy Soya 65", price: "320 / 340", img: "", desc: "Spiced, fried, crunchy, tangy, flavorful. (Paratha / Rice)" },
 
     // ── PASTA ─────────────────────────────────────────────────
     { section: "food", cat: "Pasta", name: "Aglio e Olio Pasta", price: "300", img: "images/Agglio è olio pasta.jpg.jpeg", desc: "Pasta boiled al dente and tossed with garlic and olive oil" },
@@ -114,16 +124,6 @@ const menuData = [
     { section: "food", cat: "French Fries", name: "Peri Peri French Fries", price: "170", img: "images/Peri peri French fries.jpg.jpeg", desc: "Fries seasoned with in-house peri peri spice" },
     { section: "food", cat: "French Fries", name: "Cheese Mexican Fries", price: "210", img: "images/Cheese Mexican fries.jpg.jpeg", desc: "Fries served with in-house cheese sauce" },
     { section: "food", cat: "French Fries", name: "Schezwan French Fries", price: "190", img: "images/Schezwan French fries.jpg.jpeg", desc: "Fries seasoned with spicy schezwan sauce" },
-
-    // ── APPETIZERS ──────────────────────────────────────────────
-    { section: "food", cat: "Appetizers", name: "Millet Nacho Bhel ⭐", price: "260", img: "images/Millet nacho bhel.jpg.jpeg", desc: "Millet Nachos with in-house fresh cheese sauce and Salsa" },
-    { section: "food", cat: "Appetizers", name: "European Paneer Pakoda", price: "250", img: "images/European paneer pakoda.jpg.jpeg", desc: "Stuffed with spicy Thai green paste, sourdough coated, lightly fried in organic peanut oil" },
-    { section: "food", cat: "Appetizers", name: "Indo-European Chola Bhatura ⭐", price: "140", img: "images/Info European chola bhatura.jpg.jpeg", desc: "Mini pleasure with hummus and in-house sauces with freshly made chola" },
-    { section: "food", cat: "Appetizers", name: "Chilli Paneer Dry", price: "190", img: "images/Chilli paneer dry.jpg.jpeg", desc: "Classic preparation of paneer with sauces" },
-    { section: "food", cat: "Appetizers", name: "Chilli Ragi Manchurian Dry", price: "170", img: "images/Ragi Manchurian dry.jpg.jpeg", desc: "Classic preparation of ragi manchurian with sauces" },
-    { section: "food", cat: "Appetizers", name: "Onion Rings ⭐", price: "150", img: "images/Onion rings.jpg.jpeg", desc: "Sourdough coated onion rings, lightly fried in organic peanut oil" },
-    { section: "food", cat: "Appetizers", name: "Exotic Veg Crunch", price: "180", img: "images/Veggie exotic toast.jpg.jpeg", desc: "Seasonal exotic veggies, sourdough coated, lightly fried in organic peanut oil" },
-    { section: "food", cat: "Appetizers", name: "Crispy Mushroom", price: "160", img: "images/Crispy mushroom.jpg.jpeg", desc: "Fresh mushrooms, sourdough coated, lightly fried in organic peanut oil" },
 
     // ── TOASTS ────────────────────────────────────────────────
     { section: "food", cat: "Toasts", name: "Chilli Mushroom Toast", price: "290", img: "images/Chilli mushroom toast.jpg.jpeg", desc: "Sliced mushrooms baked in spicy in-house sauce served on sourdough" },
@@ -198,6 +198,8 @@ const menuData = [
     { section: "beverages", cat: "Signatures", name: "Coffee Punch", price: "199", img: "images/beverages/coffee punch.jpeg", desc: "Iced espresso with orange & cranberry juice" },
     { section: "beverages", cat: "Signatures", name: "Affogato", price: "180", img: "images/beverages/affogato.jpeg", desc: "Espresso poured over vanilla ice cream" },
     { section: "beverages", cat: "Signatures", name: "Detox", price: "180", img: "images/beverages/Detox.jpeg", desc: "Espresso with ginger & ice" },
+    { section: "beverages", cat: "Signatures", name: "Vietnamese Drip ⭐", price: "270", img: "images/beverages/Veitnamese drip.jpeg", desc: "Brewed in a Phin" },
+    { section: "beverages", cat: "Signatures", name: "Thai Coconut Coffee", price: "250", img: "images/beverages/thai coconut coffee.jpeg", desc: "Bangkok styled coconut coffee. A true flavour from Thailand." },
 
     // // ── MANUAL BREWS ──────────────────────────────────────────
     // { section: "beverages", cat: "Manual Brews", name: "Whiskey Barrel", price: "199", img: "", desc: "Whiskey barrel processed specialty coffee brew" },
@@ -211,7 +213,7 @@ const menuData = [
     { section: "beverages", cat: "Mocktails", name: "Watermelon Mojito", price: "220", img: "images/beverages/Watermelon mojito.jpeg", desc: "Chilled watermelon infused with mint and lime for a light, summery sip" },
     { section: "beverages", cat: "Mocktails", name: "Fresh Lime Soda", price: "180", img: "images/beverages/Fresh lime soda.jpeg", desc: "Zesty lime with soda, served sweet, salty or balanced" },
     { section: "beverages", cat: "Mocktails", name: "Spiced Guava", price: "250", img: "images/beverages/spiced guava.jpeg", desc: "Sweet guava juice with a dash of chilli & masala for a tangy kick" },
-    { section: "beverages", cat: "Mocktails", name: "Sparkling Vanilla", price: "200", img: "images/beverages/sparkling vanilla.jpeg", desc: "Fizzy soda infused with smooth aromatic vanilla" },
+   // { section: "beverages", cat: "Mocktails", name: "Sparkling Vanilla", price: "200", img: "images/beverages/sparkling vanilla.jpeg", desc: "Fizzy soda infused with smooth aromatic vanilla" },
     { section: "beverages", cat: "Mocktails", name: "Pomegranate Mojito", price: "240", img: "", desc: "Fresh pomegranate blended with mint and lime for a tangy, ruby-red twist on the classic mojito" },
     { section: "beverages", cat: "Mocktails", name: "Apple Kiwi Mojito", price: "260", img: "", desc: "Crisp apple and tangy kiwi muddled with mint and lime — refreshing, fruity, and vibrant" },
     { section: "beverages", cat: "Mocktails", name: "Muskmelon Mojito", price: "220", img: "", desc: "Sweet muskmelon blended with fresh mint and lime — light, cooling, and summery" },
@@ -245,19 +247,19 @@ const menuData = [
     { section: "beverages", cat: "European Tea", name: "Green Mint Tea", price: "120", img: "images/beverages/Green mint tea black european.jpeg", desc: "Green mint tea refreshes mind, aids digestion, boosts metabolism — blended with hot water" },
 
         // ── NATURAL MILKSHAKES ────────────────────────────────────
-    { section: "beverages", cat: "Natural Milkshakes", name: "Biscoff Milkshake", price: "265", img: "", desc: "Creamy milkshake blended with rich lotus biscoff — indulgent, smooth, and irresistibly caramelised" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Oreo Milkshake", price: "250", img: "", desc: "Classic Oreo blended into a thick, creamy milkshake — a timeless favourite" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "KitKat Milkshake", price: "250", img: "", desc: "Smooth milkshake blended with crunchy KitKat — chocolatey, creamy, and fun" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Ragi Milkshake", price: "210", img: "images/beverages/ragi milk shake.jpeg", desc: "Nutritious ragi based natural milkshake" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Turmeric Honey Milkshake", price: "260", img: "images/beverages/turmeric honey milkshake.jpeg", desc: "Golden turmeric blended with natural honey" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Oats Banana Milkshake", price: "210", img: "images/beverages/oats banana milkshake.jpeg", desc: "Wholesome oats blended with ripe banana" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Strawberry Milkshake", price: "230", img: "images/beverages/strawberry milkshake.jpeg", desc: "Fresh strawberry blended milkshake" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Mix Berry Milkshake", price: "295", img: "images/beverages/mix berry milkshake.jpeg", desc: "Blended mix of fresh seasonal berries" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Dry Fruit Milkshake", price: "300", img: "images/beverages/dryfruit milkshake.jpeg", desc: "Rich milkshake loaded with mixed dry fruits" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Makhana Milkshake", price: "260", img: "images/beverages/makhana milkshake.jpeg", desc: "Creamy makhana based natural milkshake" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Honey Almond Milkshake", price: "300", img: "images/beverages/brownie milkshake.jpeg", desc: "Indulgent honey and almond blended milkshake" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Oats Banana Energy", price: "250", img: "", desc: "Wholesome oats and ripe banana blended into an energising, naturally sweet milkshake" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Mocha Energy Shake", price: "295", img: "", desc: "Bold espresso blended with chocolate and milk for a rich, energising mocha shake" },
+    { section: "beverages", cat: "Milkshakes", name: "Biscoff Milkshake", price: "265", img: "", desc: "Creamy milkshake blended with rich lotus biscoff — indulgent, smooth, and irresistibly caramelised" },
+    { section: "beverages", cat: "Milkshakes", name: "Oreo Milkshake", price: "250", img: "", desc: "Classic Oreo blended into a thick, creamy milkshake — a timeless favourite" },
+    { section: "beverages", cat: "Milkshakes", name: "KitKat Milkshake", price: "250", img: "", desc: "Smooth milkshake blended with crunchy KitKat — chocolatey, creamy, and fun" },
+    { section: "beverages", cat: "Milkshakes", name: "Ragi Milkshake", price: "210", img: "images/beverages/ragi milk shake.jpeg", desc: "Nutritious ragi based natural milkshake" },
+    //{ section: "beverages", cat: "Natural Milkshakes", name: "Turmeric Honey Milkshake", price: "260", img: "images/beverages/turmeric honey milkshake.jpeg", desc: "Golden turmeric blended with natural honey" },
+    { section: "beverages", cat: "Milkshakes", name: "Oats Banana Milkshake", price: "210", img: "images/beverages/oats banana milkshake.jpeg", desc: "Wholesome oats blended with ripe banana" },
+    { section: "beverages", cat: "Milkshakes", name: "Strawberry Milkshake", price: "230", img: "images/beverages/strawberry milkshake.jpeg", desc: "Fresh strawberry blended milkshake" },
+    { section: "beverages", cat: "Milkshakes", name: "Mix Berry Milkshake", price: "295", img: "images/beverages/mix berry milkshake.jpeg", desc: "Blended mix of fresh seasonal berries" },
+    { section: "beverages", cat: "Milkshakes", name: "Dry Fruit Milkshake", price: "300", img: "images/beverages/dryfruit milkshake.jpeg", desc: "Rich milkshake loaded with mixed dry fruits" },
+    { section: "beverages", cat: "Milkshakes", name: "Makhana Milkshake", price: "260", img: "images/beverages/makhana milkshake.jpeg", desc: "Creamy makhana based natural milkshake" },
+    { section: "beverages", cat: "Milkshakes", name: "Honey Almond Milkshake", price: "300", img: "", desc:"Indulgent honey and almond blended milkshake" },
+    //{ section: "beverages", cat:"Natural Milkshakes ", name:"Oats Banana Energy ", price:"250 ", img:"", desc:"Wholesome oats and ripe banana blended into an energising, naturally sweet milkshake" },
+    { section:"beverages ", cat:"Milkshakes ", name:"Mocha Energy Shake ", price:"295 ", img:"", desc:"Bold espresso blended with chocolate and milk for a rich, energising mocha shake" },
 
     // ── SMOOTHIES ─────────────────────────────────────────────
     { section: "beverages", cat: "Smoothies", name: "Dates Oats", price: "300", img: "images/Date oats smoothie.jpg.jpeg", desc: "Soaked dates, milk/oat milk. Natural sweetness + slow-release carbs. (~320 kcal)" },
@@ -273,13 +275,12 @@ const menuData = [
 
         // ── CAKES & BAKES ─────────────────────────────────────────
     { section: "desserts", cat: "Cakes & Bakes", name: "Belgian Chocolate Cake", price: "280", img: "images/desserts/belgian chocolate cake.jpeg", desc: "Rich, indulgent Belgian chocolate cake — deeply moist, intensely chocolatey, and pure bliss in every bite" },
-    { section: "desserts", cat: "Cakes & Bakes", name: "Banana Tea Cake", price: "150", img: "images/desserts/banana tea cake.jpeg", desc: "Soft, homestyle banana tea cake baked with ripe bananas — naturally sweet, warmly spiced, and perfect with a cup of chai" },
-    { section: "desserts", cat: "Cakes & Bakes", name: "Date Walnut Cake", price: "199", img: "images/desserts/date walnut cake.jpeg", desc: "Wholesome date and walnut cake — naturally sweetened, nutty, and nourishing with every slice" },
-    { section: "desserts", cat: "Cakes & Bakes", name: "Hazelnut Pastry", price: "199", img: "images/desserts/hazelnut pastry.jpeg", desc: "Delicate pastry layered with rich hazelnut cream — light, buttery, and indulgently smooth" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Banana Tea Cake", price: "250", img: "images/desserts/banana tea cake.jpeg", desc: "Soft, homestyle banana tea cake baked with ripe bananas — naturally sweet, warmly spiced, and perfect with a cup of chai" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Date Walnut Cake", price: "250", img: "images/desserts/date walnut cake.jpeg", desc: "Wholesome date and walnut cake — naturally sweetened, nutty, and nourishing with every slice" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Hazelnut Pastry", price: "250", img: "images/desserts/hazelnut pastry.jpeg", desc: "Delicate pastry layered with rich hazelnut cream — light, buttery, and indulgently smooth" },
     { section: "desserts", cat: "Cakes & Bakes", name: "Hey Kids! 🎉", price: "180", img: "images/desserts/Hey Kids.jpeg", desc: "A fun, colourful treat made specially for the little ones — sweet, cheerful, and full of joy" },
-    { section: "desserts", cat: "Cakes & Bakes", name: "Mix Millet Brownie", price: "", img: "images/desserts/mix milltet brownie.jpeg", desc: "Fudgy, guilt-free brownie made with mixed millets — rich in flavour, wholesome in goodness" },
-    { section: "desserts", cat: "Cakes & Bakes", name: "Tiramisu", price: "250", img: "images/desserts/tiramisu.jpeg", desc: "Classic Italian tiramisu with mascarpone, espresso-soaked layers — creamy, light, and elegantly indulgent" },
-
+    { section: "desserts", cat: "Cakes & Bakes", name: "Mix Millet Brownie", price: "180", img: "images/desserts/mix milltet brownie.jpeg", desc: "Fudgy, guilt-free brownie made with mixed millets — rich in flavour, wholesome in goodness" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Tiramisu", price: "320", img: "images/desserts/tiramisu.jpeg", desc: "Classic Italian tiramisu with mascarpone, espresso-soaked layers — creamy, light, and elegantly indulgent" },
 ];
 
 // ── Hero images for bowl categories ─────────────────────────────
@@ -300,7 +301,7 @@ const categorySteps = {
                 options: [
                     { name: "Regular Bread", desc: "Wholesome, earthy, organic gehu Sharbati flour—pure nourishment" },
                     { name: "Multigrain Bread", desc: "Nutritious, earthy multigrain flour—wholesome, hearty, naturally pure" },
-                    { name: "Exotic Bread", desc: "Gehu ka Atta, richly nut stuffed & seed-garnished, purely nourishing" }
+                    { name: "Exotic Bread - 100% Wheat Sourdough", desc: "Gehu ka Atta, richly nut stuffed & seed-garnished, purely nourishing" }
                 ]
             }
         ]
