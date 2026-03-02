@@ -54,7 +54,7 @@ const menuData = [
     { section: "food", cat: "Rice Bowls", name: "Ragi Manchurian 🌶️", price: "250", img: "images/Ragi Manchurian.jpg.jpeg", desc: "Crispy ragi manchurian over organic rice, blending ancient grains with zesty spices" },
     { section: "food", cat: "Rice Bowls", name: "Mughlai Dry Fruit Delight", price: "420", img: "images/Mughlai Dry fruit.jpg.jpeg", desc: "Mughlai spices and dry fruits slow-cooked over organic rice—warm, nutty, aromatic indulgence" },
 
-     // ── APPETIZERS ──────────────────────────────────────────────
+    // ── APPETIZERS ──────────────────────────────────────────────
     { section: "food", cat: "Appetizers", name: "Millet Nacho Bhel ⭐", price: "260", img: "images/Millet nacho bhel.jpg.jpeg", desc: "Millet Nachos with in-house fresh cheese sauce and Salsa" },
     { section: "food", cat: "Appetizers", name: "European Paneer Pakoda", price: "250", img: "images/European paneer pakoda.jpg.jpeg", desc: "Stuffed with spicy Thai green paste, sourdough coated, lightly fried in organic peanut oil" },
     { section: "food", cat: "Appetizers", name: "Indo-European Chola Bhatura ⭐", price: "140", img: "images/Info European chola bhatura.jpg.jpeg", desc: "Mini pleasure with hummus and in-house sauces with freshly made chola" },
@@ -213,7 +213,7 @@ const menuData = [
     { section: "beverages", cat: "Mocktails", name: "Watermelon Mojito", price: "220", img: "images/beverages/Watermelon mojito.jpeg", desc: "Chilled watermelon infused with mint and lime for a light, summery sip" },
     { section: "beverages", cat: "Mocktails", name: "Fresh Lime Soda", price: "180", img: "images/beverages/Fresh lime soda.jpeg", desc: "Zesty lime with soda, served sweet, salty or balanced" },
     { section: "beverages", cat: "Mocktails", name: "Spiced Guava", price: "250", img: "images/beverages/spiced guava.jpeg", desc: "Sweet guava juice with a dash of chilli & masala for a tangy kick" },
-   // { section: "beverages", cat: "Mocktails", name: "Sparkling Vanilla", price: "200", img: "images/beverages/sparkling vanilla.jpeg", desc: "Fizzy soda infused with smooth aromatic vanilla" },
+    // { section: "beverages", cat: "Mocktails", name: "Sparkling Vanilla", price: "200", img: "images/beverages/sparkling vanilla.jpeg", desc: "Fizzy soda infused with smooth aromatic vanilla" },
     { section: "beverages", cat: "Mocktails", name: "Pomegranate Mojito", price: "240", img: "", desc: "Fresh pomegranate blended with mint and lime for a tangy, ruby-red twist on the classic mojito" },
     { section: "beverages", cat: "Mocktails", name: "Apple Kiwi Mojito", price: "260", img: "", desc: "Crisp apple and tangy kiwi muddled with mint and lime — refreshing, fruity, and vibrant" },
     { section: "beverages", cat: "Mocktails", name: "Muskmelon Mojito", price: "220", img: "", desc: "Sweet muskmelon blended with fresh mint and lime — light, cooling, and summery" },
@@ -246,7 +246,7 @@ const menuData = [
     { section: "beverages", cat: "European Tea", name: "English Breakfast Tea", price: "120", img: "images/beverages/english breakfast tea black european.jpeg", desc: "English Breakfast tea is strong, energizing, improves focus and alertness — blended with hot water" },
     { section: "beverages", cat: "European Tea", name: "Green Mint Tea", price: "120", img: "images/beverages/Green mint tea black european.jpeg", desc: "Green mint tea refreshes mind, aids digestion, boosts metabolism — blended with hot water" },
 
-        // ── NATURAL MILKSHAKES ────────────────────────────────────
+    // ── NATURAL MILKSHAKES ────────────────────────────────────
     { section: "beverages", cat: "Milkshakes", name: "Biscoff Milkshake", price: "265", img: "", desc: "Creamy milkshake blended with rich lotus biscoff — indulgent, smooth, and irresistibly caramelised" },
     { section: "beverages", cat: "Milkshakes", name: "Oreo Milkshake", price: "250", img: "", desc: "Classic Oreo blended into a thick, creamy milkshake — a timeless favourite" },
     { section: "beverages", cat: "Milkshakes", name: "KitKat Milkshake", price: "250", img: "", desc: "Smooth milkshake blended with crunchy KitKat — chocolatey, creamy, and fun" },
@@ -257,9 +257,9 @@ const menuData = [
     { section: "beverages", cat: "Milkshakes", name: "Mix Berry Milkshake", price: "295", img: "images/beverages/mix berry milkshake.jpeg", desc: "Blended mix of fresh seasonal berries" },
     { section: "beverages", cat: "Milkshakes", name: "Dry Fruit Milkshake", price: "300", img: "images/beverages/dryfruit milkshake.jpeg", desc: "Rich milkshake loaded with mixed dry fruits" },
     { section: "beverages", cat: "Milkshakes", name: "Makhana Milkshake", price: "260", img: "images/beverages/makhana milkshake.jpeg", desc: "Creamy makhana based natural milkshake" },
-    { section: "beverages", cat: "Milkshakes", name: "Honey Almond Milkshake", price: "300", img: "", desc:"Indulgent honey and almond blended milkshake" },
+    { section: "beverages", cat: "Milkshakes", name: "Honey Almond Milkshake", price: "300", img: "", desc: "Indulgent honey and almond blended milkshake" },
     //{ section: "beverages", cat:"Natural Milkshakes ", name:"Oats Banana Energy ", price:"250 ", img:"", desc:"Wholesome oats and ripe banana blended into an energising, naturally sweet milkshake" },
-    { section:"beverages ", cat:"Milkshakes ", name:"Mocha Energy Shake ", price:"295 ", img:"", desc:"Bold espresso blended with chocolate and milk for a rich, energising mocha shake" },
+    { section: "beverages ", cat: "Milkshakes ", name: "Mocha Energy Shake ", price: "295 ", img: "", desc: "Bold espresso blended with chocolate and milk for a rich, energising mocha shake" },
 
     // ── SMOOTHIES ─────────────────────────────────────────────
     { section: "beverages", cat: "Smoothies", name: "Dates Oats", price: "300", img: "images/Date oats smoothie.jpg.jpeg", desc: "Soaked dates, milk/oat milk. Natural sweetness + slow-release carbs. (~320 kcal)" },
@@ -273,7 +273,7 @@ const menuData = [
     // ---------------------------------------DESSERTS-------------------------------------------------
     // ------------------------------------------------------------------------------------------------
 
-        // ── CAKES & BAKES ─────────────────────────────────────────
+    // ── CAKES & BAKES ─────────────────────────────────────────
     { section: "desserts", cat: "Cakes & Bakes", name: "Belgian Chocolate Cake", price: "280", img: "images/desserts/belgian chocolate cake.jpeg", desc: "Rich, indulgent Belgian chocolate cake — deeply moist, intensely chocolatey, and pure bliss in every bite" },
     { section: "desserts", cat: "Cakes & Bakes", name: "Banana Tea Cake", price: "250", img: "images/desserts/banana tea cake.jpeg", desc: "Soft, homestyle banana tea cake baked with ripe bananas — naturally sweet, warmly spiced, and perfect with a cup of chai" },
     { section: "desserts", cat: "Cakes & Bakes", name: "Date Walnut Cake", price: "250", img: "images/desserts/date walnut cake.jpeg", desc: "Wholesome date and walnut cake — naturally sweetened, nutty, and nourishing with every slice" },
@@ -342,6 +342,23 @@ const categoryNotes = {
             <p>📏 Available in <strong>Regular & Medium</strong></p>
             <p>🧀 Upgrade it with <strong>Extra Cheese @ ₹50 only</strong></p>
         </div>
-    `
+    `,
+    "Soya Bowls": `<strong>🍽️ Choose Your Base:</strong><br>
+        Served with <strong>Paratha</strong> or <strong>Rice</strong> — pick your favourite!`,
+
+    "Hot Coffee (Black)": `<strong>✨ Add a Flavour Shot @ ₹30 only:</strong><br>
+        Hazelnut &nbsp;|&nbsp; Caramel &nbsp;|&nbsp; Vanilla &nbsp;|&nbsp; Tiramisu &nbsp;|&nbsp; Irish &nbsp;|&nbsp; Extra Coffee Shot`,
+
+    "Hot Coffee (White)": `<strong>✨ Add a Flavour Shot @ ₹30 only:</strong><br>
+        Hazelnut &nbsp;|&nbsp; Caramel &nbsp;|&nbsp; Vanilla &nbsp;|&nbsp; Tiramisu &nbsp;|&nbsp; Irish &nbsp;|&nbsp; Extra Coffee Shot`,
+
+    "Iced Coffee": `<strong>✨ Add a Flavour Shot @ ₹30 only:</strong><br>
+        Hazelnut &nbsp;|&nbsp; Caramel &nbsp;|&nbsp; Vanilla &nbsp;|&nbsp; Tiramisu &nbsp;|&nbsp; Irish &nbsp;|&nbsp; Extra Coffee Shot`,
+
+    "Frappe": `<strong>✨ Add a Flavour Shot @ ₹30 only:</strong><br>
+        Hazelnut &nbsp;|&nbsp; Caramel &nbsp;|&nbsp; Vanilla &nbsp;|&nbsp; Tiramisu &nbsp;|&nbsp; Irish &nbsp;|&nbsp; Extra Coffee Shot`,
+
+    "Signatures": `<strong>✨ Add a Flavour Shot @ ₹30 only:</strong><br>
+        Hazelnut &nbsp;|&nbsp; Caramel &nbsp;|&nbsp; Vanilla &nbsp;|&nbsp; Tiramisu &nbsp;|&nbsp; Irish &nbsp;|&nbsp; Extra Coffee Shot`,
 };
 
