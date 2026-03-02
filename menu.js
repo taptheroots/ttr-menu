@@ -101,12 +101,13 @@ const menuData = [
     { section: "food", cat: "Moonglet", name: "Paneer Moonglet ⭐", price: "180", img: "images/Paneer Moonglet.jpg.jpeg", desc: "Moong dal filled with fresh in-house paneer and organic spices" },
 
     // ── SANDWICH ──────────────────────────────────────────────
-    { section: "food", cat: "Sandwich", name: "Coleslaw Sandwich", price: "120", img: "images/sandwiches/Coleslaw_sandwitch.jpeg", desc: "Multigrain bread with loaded fresh cucumber, carrot, infused with in-house cheese sauce" },
-    { section: "food", cat: "Sandwich", name: "Hummus Sandwich", price: "199", img: "images/sandwiches/Hummus_sandwitch.jpeg", desc: "In-house fresh hummus served with a tomato twist on multigrain bread" },
-    { section: "food", cat: "Sandwich", name: "Bombay Sandwich", price: "210", img: "images/sandwiches/Bombay_sandwitch.jpeg", desc: "Indian twist spices with potato, onion & tomato served with grilled multigrain bread" },
-    { section: "food", cat: "Sandwich", name: "Paneer Tandoori Sandwich ⭐", price: "220", img: "images/sandwiches/Paneer tandoori sandwitch.jpeg", desc: "In-house tandoori sauce filled with paneer served with multigrain bread" },
+    { section: "food", cat: "Sandwich", name: "Coleslaw Sandwich", price: "150", img: "images/sandwiches/Coleslaw_sandwitch.jpeg", desc: "Multigrain bread with loaded fresh cucumber, carrot, infused with in-house cheese sauce" },
+    { section: "food", cat: "Sandwich", name: "Hummus Sandwich", price: "250", img: "images/sandwiches/Hummus_sandwitch.jpeg", desc: "In-house fresh hummus served with a tomato twist on multigrain bread" },
+    { section: "food", cat: "Sandwich", name: "Bombay Sandwich", price: "250", img: "images/sandwiches/Bombay_sandwitch.jpeg", desc: "Indian twist spices with potato, onion & tomato served with grilled multigrain bread" },
+    { section: "food", cat: "Sandwich", name: "Paneer Tandoori Sandwich ⭐", price: "270", img: "images/sandwiches/Paneer tandoori sandwitch.jpeg", desc: "In-house tandoori sauce filled with paneer served with multigrain bread" },
     { section: "food", cat: "Sandwich", name: "Tandoori Soya Sandwich", price: "199", img: "images/sandwiches/Tandoori_soya.jpeg", desc: "Multigrain sandwich with in-house cheese sauce, lettuce, tomato, and cucumber" },
-    { section: "food", cat: "Sandwich", name: "Classic Grilled Sandwich", price: "120", img: "images/sandwiches/Classic_grilled.jpeg", desc: "Grilled multigrain sandwich with in-house cheese sauce and fresh veggies" },
+    { section: "food", cat: "Sandwich", name: "Classic Grilled Sandwich", price: "150", img: "images/sandwiches/Classic_grilled.jpeg", desc: "Grilled multigrain sandwich with in-house cheese sauce and fresh veggies" },
+    { section: "food", cat: "Sandwich", name: "Peri Peri Veg Crunch", price: "200", img: "", desc: "Crispy exotic veggies tossed in bold in-house peri peri spice, packed into multigrain bread — crunchy, spicy, and satisfying" },
 
     // ── FRENCH FRIES ──────────────────────────────────────────
     { section: "food", cat: "French Fries", name: "Classic Salted French Fries", price: "120", img: "images/Classic salted French fries.jpg.jpeg", desc: "Classic fries seasoned with salt" },
@@ -136,6 +137,12 @@ const menuData = [
     { section: "food", cat: "Salads", name: "Weight Loss Salad ⭐", price: "420", img: "images/Weight loss salad.jpg.jpeg", desc: "Broccoli, grilled Tofu, walnuts, Basil pesto, Chia seeds, Almonds, TTR dressing. (~250 kcal, 20g Protein)" },
     { section: "food", cat: "Salads", name: "Protein Chaat", price: "250", img: "images/Protein chaat salad.jpg.jpeg", desc: "Tomato, boiled moong, Imli chutney, Chickpea, Rajma, curd, TTR dressing. (~360 kcal, 20g Protein)" },
     { section: "food", cat: "Salads", name: "Classic Fruit Salad", price: "299", img: "", desc: "Seasonal fresh fruits seasoned with taste twist" },
+
+    // ── MILLET PANCAKES ───────────────────────────────────────
+    { section: "food", cat: "Millet Pancakes", name: "Classic Pancake", price: "299", img: "images/Classic pancakes.jpg.jpeg", desc: "A classic preparation of millet based pancake" },
+    { section: "food", cat: "Millet Pancakes", name: "Banana Choco Chip ⭐", price: "330", img: "images/Banana choco chip pancakes.jpg.jpeg", desc: "Millet based pancake loaded with banana and choco chips" },
+    { section: "food", cat: "Millet Pancakes", name: "Chocolate Pancake", price: "320", img: "", desc: "Millet based pancake with dark chocolate syrup—perfect for chocolate lovers" },
+    { section: "food", cat: "Millet Pancakes", name: "Blueberry Pancake ⭐", price: "350", img: "images/Blueberry pancakes.jpg.jpeg", desc: "Millet based pancake loaded with a refreshing taste of authentic blueberry" },
 
 
     // ------------------------------------------------------------------------------------------------
@@ -199,12 +206,18 @@ const menuData = [
     // { section: "beverages", cat: "Manual Brews", name: "Honey Sun-dried", price: "170", img: "", desc: "Honey sun-dried processed specialty coffee brew" },
 
     // ── MOCKTAILS ─────────────────────────────────────────────
-    { section: "beverages", cat: "Mocktails", name: "Classic Mojito", price: "180", img: "images/beverages/classic mojito.jpeg", desc: "Refreshing mint, lime and soda blended for a crisp, cool drink" },
+    { section: "beverages", cat: "Mocktails", name: "Classic Mojito", price: "220", img: "images/beverages/classic mojito.jpeg", desc: "Refreshing mint, lime and soda blended for a crisp, cool drink" },
     { section: "beverages", cat: "Mocktails", name: "Strawberry Mojito", price: "180", img: "images/beverages/strawberry mojito.jpeg", desc: "Fresh strawberries mixed with mint & lime for a fruity twist" },
-    { section: "beverages", cat: "Mocktails", name: "Watermelon Mojito", price: "180", img: "images/beverages/Watermelon mojito.jpeg", desc: "Chilled watermelon infused with mint and lime for a light, summery sip" },
-    { section: "beverages", cat: "Mocktails", name: "Fresh Lime Soda", price: "150", img: "images/beverages/Fresh lime soda.jpeg", desc: "Zesty lime with soda, served sweet, salty or balanced" },
-    { section: "beverages", cat: "Mocktails", name: "Spiced Guava", price: "180", img: "images/beverages/spiced guava.jpeg", desc: "Sweet guava juice with a dash of chilli & masala for a tangy kick" },
-    { section: "beverages", cat: "Mocktails", name: "Sparkling Vanilla", price: "150", img: "images/beverages/sparkling vanilla.jpeg", desc: "Fizzy soda infused with smooth aromatic vanilla" },
+    { section: "beverages", cat: "Mocktails", name: "Watermelon Mojito", price: "220", img: "images/beverages/Watermelon mojito.jpeg", desc: "Chilled watermelon infused with mint and lime for a light, summery sip" },
+    { section: "beverages", cat: "Mocktails", name: "Fresh Lime Soda", price: "180", img: "images/beverages/Fresh lime soda.jpeg", desc: "Zesty lime with soda, served sweet, salty or balanced" },
+    { section: "beverages", cat: "Mocktails", name: "Spiced Guava", price: "250", img: "images/beverages/spiced guava.jpeg", desc: "Sweet guava juice with a dash of chilli & masala for a tangy kick" },
+    { section: "beverages", cat: "Mocktails", name: "Sparkling Vanilla", price: "200", img: "images/beverages/sparkling vanilla.jpeg", desc: "Fizzy soda infused with smooth aromatic vanilla" },
+    { section: "beverages", cat: "Mocktails", name: "Pomegranate Mojito", price: "240", img: "", desc: "Fresh pomegranate blended with mint and lime for a tangy, ruby-red twist on the classic mojito" },
+    { section: "beverages", cat: "Mocktails", name: "Apple Kiwi Mojito", price: "260", img: "", desc: "Crisp apple and tangy kiwi muddled with mint and lime — refreshing, fruity, and vibrant" },
+    { section: "beverages", cat: "Mocktails", name: "Muskmelon Mojito", price: "220", img: "", desc: "Sweet muskmelon blended with fresh mint and lime — light, cooling, and summery" },
+    { section: "beverages", cat: "Mocktails", name: "Flamingo (Dragon Fruit Mojito)", price: "260", img: "", desc: "Exotic dragon fruit muddled with mint and lime — strikingly vibrant, tropical, and refreshing" },
+    { section: "beverages", cat: "Mocktails", name: "Chilli Pineapple Mojito 🌶️", price: "220", img: "", desc: "Sweet pineapple with a fiery chilli kick, balanced with mint and lime — bold, tropical, and exciting" },
+
 
     // ── ICED TEA ──────────────────────────────────────────────
     { section: "beverages", cat: "Iced Tea", name: "Lemon Mint Iced Tea", price: "190", img: "images/beverages/lemon mint iced.jpeg", desc: "Zesty lemon and cool mint blended with chilled tea" },
@@ -231,15 +244,20 @@ const menuData = [
     { section: "beverages", cat: "European Tea", name: "English Breakfast Tea", price: "120", img: "images/beverages/english breakfast tea black european.jpeg", desc: "English Breakfast tea is strong, energizing, improves focus and alertness — blended with hot water" },
     { section: "beverages", cat: "European Tea", name: "Green Mint Tea", price: "120", img: "images/beverages/Green mint tea black european.jpeg", desc: "Green mint tea refreshes mind, aids digestion, boosts metabolism — blended with hot water" },
 
-    // ── NATURAL MILKSHAKES ────────────────────────────────────
+        // ── NATURAL MILKSHAKES ────────────────────────────────────
+    { section: "beverages", cat: "Natural Milkshakes", name: "Biscoff Milkshake", price: "265", img: "", desc: "Creamy milkshake blended with rich lotus biscoff — indulgent, smooth, and irresistibly caramelised" },
+    { section: "beverages", cat: "Natural Milkshakes", name: "Oreo Milkshake", price: "250", img: "", desc: "Classic Oreo blended into a thick, creamy milkshake — a timeless favourite" },
+    { section: "beverages", cat: "Natural Milkshakes", name: "KitKat Milkshake", price: "250", img: "", desc: "Smooth milkshake blended with crunchy KitKat — chocolatey, creamy, and fun" },
     { section: "beverages", cat: "Natural Milkshakes", name: "Ragi Milkshake", price: "210", img: "images/beverages/ragi milk shake.jpeg", desc: "Nutritious ragi based natural milkshake" },
     { section: "beverages", cat: "Natural Milkshakes", name: "Turmeric Honey Milkshake", price: "260", img: "images/beverages/turmeric honey milkshake.jpeg", desc: "Golden turmeric blended with natural honey" },
     { section: "beverages", cat: "Natural Milkshakes", name: "Oats Banana Milkshake", price: "210", img: "images/beverages/oats banana milkshake.jpeg", desc: "Wholesome oats blended with ripe banana" },
     { section: "beverages", cat: "Natural Milkshakes", name: "Strawberry Milkshake", price: "230", img: "images/beverages/strawberry milkshake.jpeg", desc: "Fresh strawberry blended milkshake" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Mix Berry Milkshake", price: "310", img: "images/beverages/mix berry milkshake.jpeg", desc: "Blended mix of fresh seasonal berries" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Dry Fruit Milkshake", price: "310", img: "images/beverages/dryfruit milkshake.jpeg", desc: "Rich milkshake loaded with mixed dry fruits" },
+    { section: "beverages", cat: "Natural Milkshakes", name: "Mix Berry Milkshake", price: "295", img: "images/beverages/mix berry milkshake.jpeg", desc: "Blended mix of fresh seasonal berries" },
+    { section: "beverages", cat: "Natural Milkshakes", name: "Dry Fruit Milkshake", price: "300", img: "images/beverages/dryfruit milkshake.jpeg", desc: "Rich milkshake loaded with mixed dry fruits" },
     { section: "beverages", cat: "Natural Milkshakes", name: "Makhana Milkshake", price: "260", img: "images/beverages/makhana milkshake.jpeg", desc: "Creamy makhana based natural milkshake" },
-    { section: "beverages", cat: "Natural Milkshakes", name: "Brownie Honey Milkshake", price: "260", img: "images/beverages/brownie milkshake.jpeg", desc: "Indulgent brownie and honey blended milkshake" },
+    { section: "beverages", cat: "Natural Milkshakes", name: "Honey Almond Milkshake", price: "300", img: "images/beverages/brownie milkshake.jpeg", desc: "Indulgent honey and almond blended milkshake" },
+    { section: "beverages", cat: "Natural Milkshakes", name: "Oats Banana Energy", price: "250", img: "", desc: "Wholesome oats and ripe banana blended into an energising, naturally sweet milkshake" },
+    { section: "beverages", cat: "Natural Milkshakes", name: "Mocha Energy Shake", price: "295", img: "", desc: "Bold espresso blended with chocolate and milk for a rich, energising mocha shake" },
 
     // ── SMOOTHIES ─────────────────────────────────────────────
     { section: "beverages", cat: "Smoothies", name: "Dates Oats", price: "300", img: "images/Date oats smoothie.jpg.jpeg", desc: "Soaked dates, milk/oat milk. Natural sweetness + slow-release carbs. (~320 kcal)" },
@@ -253,11 +271,15 @@ const menuData = [
     // ---------------------------------------DESSERTS-------------------------------------------------
     // ------------------------------------------------------------------------------------------------
 
-    // ── MILLET PANCAKES ───────────────────────────────────────
-    { section: "desserts", cat: "Millet Pancakes", name: "Classic Pancakes", price: "299", img: "images/Classic pancakes.jpg.jpeg", desc: "A classic preparation of millet based pancake" },
-    { section: "desserts", cat: "Millet Pancakes", name: "Banana Choco Chip ⭐", price: "330", img: "images/Banana choco chip pancakes.jpg.jpeg", desc: "Millet based pancake loaded with banana and choco chips" },
-    { section: "desserts", cat: "Millet Pancakes", name: "Chocolate Pancakes", price: "320", img: "", desc: "Millet based pancake with dark chocolate syrup—perfect for chocolate lovers" },
-    { section: "desserts", cat: "Millet Pancakes", name: "Blueberry Pancakes ⭐", price: "350", img: "images/Blueberry pancakes.jpg.jpeg", desc: "Millet based pancake loaded with a refreshing taste of authentic blueberry" },
+        // ── CAKES & BAKES ─────────────────────────────────────────
+    { section: "desserts", cat: "Cakes & Bakes", name: "Belgian Chocolate Cake", price: "280", img: "images/desserts/belgian chocolate cake.jpeg", desc: "Rich, indulgent Belgian chocolate cake — deeply moist, intensely chocolatey, and pure bliss in every bite" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Banana Tea Cake", price: "150", img: "images/desserts/banana tea cake.jpeg", desc: "Soft, homestyle banana tea cake baked with ripe bananas — naturally sweet, warmly spiced, and perfect with a cup of chai" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Date Walnut Cake", price: "199", img: "images/desserts/date walnut cake.jpeg", desc: "Wholesome date and walnut cake — naturally sweetened, nutty, and nourishing with every slice" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Hazelnut Pastry", price: "199", img: "images/desserts/hazelnut pastry.jpeg", desc: "Delicate pastry layered with rich hazelnut cream — light, buttery, and indulgently smooth" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Hey Kids! 🎉", price: "180", img: "images/desserts/Hey Kids.jpeg", desc: "A fun, colourful treat made specially for the little ones — sweet, cheerful, and full of joy" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Mix Millet Brownie", price: "", img: "images/desserts/mix milltet brownie.jpeg", desc: "Fudgy, guilt-free brownie made with mixed millets — rich in flavour, wholesome in goodness" },
+    { section: "desserts", cat: "Cakes & Bakes", name: "Tiramisu", price: "250", img: "images/desserts/tiramisu.jpeg", desc: "Classic Italian tiramisu with mascarpone, espresso-soaked layers — creamy, light, and elegantly indulgent" },
+
 ];
 
 // ── Hero images for bowl categories ─────────────────────────────
