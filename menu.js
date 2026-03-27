@@ -99,16 +99,16 @@ const menuData = [
     { section: "food", cat: "Noodles", name: "Hakka Noodles", price: "280", img: "images/Hakka Noodles.jpg.jpeg", desc: "Noodles tossed with paneer and mushroom" },
 
     // ── BRUSCHETTA ────────────────────────────────────────────
-    { section: "food", cat: "Bruschetta", name: "Italian Classic Bruschetta ⭐", price: "250", img: "images/Indian classic Bruschetta.jpg.jpeg", desc: "Sourdough topped with tomato in garlicky olive oil with cheese" },
-    { section: "food", cat: "Bruschetta", name: "Roasted Tomato Bruschetta", price: "260", img: "", desc: "Sourdough topped with roasted tomato in garlicky olive oil, cheese, and fresh basil" },
-    { section: "food", cat: "Bruschetta", name: "Green Pesto Bruschetta", price: "300", img: "images/Green Pesto bruschetta.jpg.jpeg", desc: "Sourdough topped with green pesto, tomato in garlicky olive oil, and parmesan cheese" },
-    { section: "food", cat: "Bruschetta", name: "Avocado Bruschetta ⭐", price: "350", img: "images/Avocado bruschetta.jpg.jpeg", desc: "Sourdough topped with Guacamole and tossed garlicky tomato" },
-    { section: "food", cat: "Bruschetta", name: "Spinach Bruschetta", price: "250", img: "images/Spinach bruschetta.jpg.jpeg", desc: "Sourdough topped with spinach and garlic tossed with tomato and virgin olive oil" },
-    { section: "food", cat: "Bruschetta", name: "Cheese Mushroom Bruschetta ⭐", price: "280", img: "images/Cheese Musroom bruschetta.jpg.jpeg", desc: "Sourdough topped with cheesy mixture of mushroom and garlic" },
+    // { section: "food", cat: "Bruschetta", name: "Italian Classic Bruschetta ⭐", price: "250", img: "images/Indian classic Bruschetta.jpg.jpeg", desc: "Sourdough topped with tomato in garlicky olive oil with cheese" },
+    // { section: "food", cat: "Bruschetta", name: "Roasted Tomato Bruschetta", price: "260", img: "", desc: "Sourdough topped with roasted tomato in garlicky olive oil, cheese, and fresh basil" },
+    // { section: "food", cat: "Bruschetta", name: "Green Pesto Bruschetta", price: "300", img: "images/Green Pesto bruschetta.jpg.jpeg", desc: "Sourdough topped with green pesto, tomato in garlicky olive oil, and parmesan cheese" },
+    // { section: "food", cat: "Bruschetta", name: "Avocado Bruschetta ⭐", price: "350", img: "images/Avocado bruschetta.jpg.jpeg", desc: "Sourdough topped with Guacamole and tossed garlicky tomato" },
+    // { section: "food", cat: "Bruschetta", name: "Spinach Bruschetta", price: "250", img: "images/Spinach bruschetta.jpg.jpeg", desc: "Sourdough topped with spinach and garlic tossed with tomato and virgin olive oil" },
+    // { section: "food", cat: "Bruschetta", name: "Cheese Mushroom Bruschetta ⭐", price: "280", img: "images/Cheese Musroom bruschetta.jpg.jpeg", desc: "Sourdough topped with cheesy mixture of mushroom and garlic" },
 
     // ── MOONGLET ──────────────────────────────────────────────
-    { section: "food", cat: "Moonglet", name: "Classic Moonglet", price: "150", img: "images/Classic Moonglet.jpg.jpeg", desc: "Healthy moong dal with spices, onion, garlic, and curry leaves" },
-    { section: "food", cat: "Moonglet", name: "Paneer Moonglet ⭐", price: "180", img: "images/Paneer Moonglet.jpg.jpeg", desc: "Moong dal filled with fresh in-house paneer and organic spices" },
+    // { section: "food", cat: "Moonglet", name: "Classic Moonglet", price: "150", img: "images/Classic Moonglet.jpg.jpeg", desc: "Healthy moong dal with spices, onion, garlic, and curry leaves" },
+    // { section: "food", cat: "Moonglet", name: "Paneer Moonglet ⭐", price: "180", img: "images/Paneer Moonglet.jpg.jpeg", desc: "Moong dal filled with fresh in-house paneer and organic spices" },
 
     // ── SANDWICH ──────────────────────────────────────────────
     { section: "food", cat: "Sandwich", name: "Coleslaw Sandwich", price: "150", img: "images/sandwiches/Coleslaw_sandwitch.jpeg", desc: "Multigrain bread with loaded fresh cucumber, carrot, infused with in-house cheese sauce" },
@@ -120,17 +120,17 @@ const menuData = [
     { section: "food", cat: "Sandwich", name: "Peri Peri Veg Crunch", price: "200", img: "", desc: "Crispy exotic veggies tossed in bold in-house peri peri spice, packed into multigrain bread — crunchy, spicy, and satisfying" },
 
     // ── FRENCH FRIES ──────────────────────────────────────────
-    { section: "food", cat: "French Fries", name: "Classic Salted French Fries", price: "120", img: "images/Classic salted French fries.jpg.jpeg", desc: "Classic fries seasoned with salt" },
-    { section: "food", cat: "French Fries", name: "Peri Peri French Fries", price: "170", img: "images/Peri peri French fries.jpg.jpeg", desc: "Fries seasoned with in-house peri peri spice" },
-    { section: "food", cat: "French Fries", name: "Cheese Mexican Fries", price: "210", img: "images/Cheese Mexican fries.jpg.jpeg", desc: "Fries served with in-house cheese sauce" },
-    { section: "food", cat: "French Fries", name: "Schezwan French Fries", price: "190", img: "images/Schezwan French fries.jpg.jpeg", desc: "Fries seasoned with spicy schezwan sauce" },
+    // { section: "food", cat: "French Fries", name: "Classic Salted French Fries", price: "120", img: "images/Classic salted French fries.jpg.jpeg", desc: "Classic fries seasoned with salt" },
+    // { section: "food", cat: "French Fries", name: "Peri Peri French Fries", price: "170", img: "images/Peri peri French fries.jpg.jpeg", desc: "Fries seasoned with in-house peri peri spice" },
+    // { section: "food", cat: "French Fries", name: "Cheese Mexican Fries", price: "210", img: "images/Cheese Mexican fries.jpg.jpeg", desc: "Fries served with in-house cheese sauce" },
+    // { section: "food", cat: "French Fries", name: "Schezwan French Fries", price: "190", img: "images/Schezwan French fries.jpg.jpeg", desc: "Fries seasoned with spicy schezwan sauce" },
 
     // ── TOASTS ────────────────────────────────────────────────
-    { section: "food", cat: "Toasts", name: "Chilli Mushroom Toast", price: "290", img: "images/Chilli mushroom toast.jpg.jpeg", desc: "Sliced mushrooms baked in spicy in-house sauce served on sourdough" },
-    { section: "food", cat: "Toasts", name: "Chilli Cheese Garlic Toast", price: "280", img: "images/Chilli cheese garlic toast.jpg.jpeg", desc: "In-house chilli cheese garlic sauce baked with veggies on sourdough" },
-    { section: "food", cat: "Toasts", name: "Veggie Exotic Toast", price: "300", img: "images/Veggie exotic toast.jpg.jpeg", desc: "Exotic seasonal vegetables tossed in olive oil, baked with in-house cheese on sourdough" },
-    { section: "food", cat: "Toasts", name: "Avocado Toast ⭐", price: "320", img: "images/Avocado toast.jpg.jpeg", desc: "Avocado seasoned in guacamole process and baked on sourdough" },
-    { section: "food", cat: "Toasts", name: "Caramelised Onion Mushroom ⭐", price: "300", img: "images/Caramelised onion mushroom.jpg.jpeg", desc: "Sliced onion and mushrooms caramelised in butter and olive oil, seasoned with TTR spices on sourdough" },
+    // { section: "food", cat: "Toasts", name: "Chilli Mushroom Toast", price: "290", img: "images/Chilli mushroom toast.jpg.jpeg", desc: "Sliced mushrooms baked in spicy in-house sauce served on sourdough" },
+    // { section: "food", cat: "Toasts", name: "Chilli Cheese Garlic Toast", price: "280", img: "images/Chilli cheese garlic toast.jpg.jpeg", desc: "In-house chilli cheese garlic sauce baked with veggies on sourdough" },
+    // { section: "food", cat: "Toasts", name: "Veggie Exotic Toast", price: "300", img: "images/Veggie exotic toast.jpg.jpeg", desc: "Exotic seasonal vegetables tossed in olive oil, baked with in-house cheese on sourdough" },
+    // { section: "food", cat: "Toasts", name: "Avocado Toast ⭐", price: "320", img: "images/Avocado toast.jpg.jpeg", desc: "Avocado seasoned in guacamole process and baked on sourdough" },
+    // { section: "food", cat: "Toasts", name: "Caramelised Onion Mushroom ⭐", price: "300", img: "images/Caramelised onion mushroom.jpg.jpeg", desc: "Sliced onion and mushrooms caramelised in butter and olive oil, seasoned with TTR spices on sourdough" },
 
     // ── SALADS ────────────────────────────────────────────────
     { section: "food", cat: "Salads", name: "Weight Gain Salad", price: "320", img: "images/Weight gain salad.jpg.jpeg", desc: "Peanuts, chickpea, grilled Paneer, cucumber, berries, olives, bell peppers, sweet corn, basil, lettuce, TTR dressing. (~700 kcal, 41g Protein)" },
@@ -139,10 +139,10 @@ const menuData = [
     { section: "food", cat: "Salads", name: "Classic Fruit Salad", price: "299", img: "", desc: "Seasonal fresh fruits seasoned with taste twist" },
 
     // ── MILLET PANCAKES ───────────────────────────────────────
-    { section: "food", cat: "Millet Pancakes", name: "Classic Pancake", price: "299", img: "images/Classic pancakes.jpg.jpeg", desc: "A classic preparation of millet based pancake" },
-    { section: "food", cat: "Millet Pancakes", name: "Banana Choco Chip ⭐", price: "330", img: "images/Banana choco chip pancakes.jpg.jpeg", desc: "Millet based pancake loaded with banana and choco chips" },
-    { section: "food", cat: "Millet Pancakes", name: "Chocolate Pancake", price: "320", img: "", desc: "Millet based pancake with dark chocolate syrup—perfect for chocolate lovers" },
-    { section: "food", cat: "Millet Pancakes", name: "Blueberry Pancake ⭐", price: "350", img: "images/Blueberry pancakes.jpg.jpeg", desc: "Millet based pancake loaded with a refreshing taste of authentic blueberry" },
+    // { section: "food", cat: "Millet Pancakes", name: "Classic Pancake", price: "299", img: "images/Classic pancakes.jpg.jpeg", desc: "A classic preparation of millet based pancake" },
+    // { section: "food", cat: "Millet Pancakes", name: "Banana Choco Chip ⭐", price: "330", img: "images/Banana choco chip pancakes.jpg.jpeg", desc: "Millet based pancake loaded with banana and choco chips" },
+    // { section: "food", cat: "Millet Pancakes", name: "Chocolate Pancake", price: "320", img: "", desc: "Millet based pancake with dark chocolate syrup—perfect for chocolate lovers" },
+    // { section: "food", cat: "Millet Pancakes", name: "Blueberry Pancake ⭐", price: "350", img: "images/Blueberry pancakes.jpg.jpeg", desc: "Millet based pancake loaded with a refreshing taste of authentic blueberry" },
 
 
     // ------------------------------------------------------------------------------------------------
@@ -262,12 +262,12 @@ const menuData = [
     { section: "beverages ", cat: "Milkshakes ", name: "Mocha Energy Shake ", price: "295 ", img: "", desc: "Bold espresso blended with chocolate and milk for a rich, energising mocha shake" },
 
     // ── SMOOTHIES ─────────────────────────────────────────────
-    { section: "beverages", cat: "Smoothies", name: "Dates Oats", price: "300", img: "images/Date oats smoothie.jpg.jpeg", desc: "Soaked dates, milk/oat milk. Natural sweetness + slow-release carbs. (~320 kcal)" },
-    { section: "beverages", cat: "Smoothies", name: "Banana Peanut Butter", price: "260", img: "images/Banana peanut butter.jpg.jpeg", desc: "Banana, natural peanut butter, milk/oat milk, chia seeds. No added sugar. (~350 kcal)" },
-    { section: "beverages", cat: "Smoothies", name: "Coffee Banana Energy ⭐", price: "399", img: "images/Coffee banana smoothie.jpg.jpeg", desc: "Banana, chilled brewed coffee, milk/oat milk, cocoa powder. Natural caffeine + potassium. (~260 kcal)" },
-    { section: "beverages", cat: "Smoothies", name: "Chocolate Oats Smoothie ⭐", price: "250", img: "images/Chocolate pats smoothie.jpg.jpeg", desc: "Oats, banana, unsweetened cocoa, milk/oat milk. No sugar, slow carbs. (~310 kcal)" },
-    { section: "beverages", cat: "Smoothies", name: "Avocado Smoothie Bowl", price: "360", img: "images/Avocado smoothie.jpg.jpeg", desc: "Ripe avocado, banana, milk/oat milk, honey or dates, chia seeds. (~375 kcal)" },
-    { section: "beverages", cat: "Smoothies", name: "Vegan Plant Protein Smoothie", price: "280", img: "images/Vegan plant protein smoothie.jpg.jpeg", desc: "Spinach, banana, milk/oat milk, peanut butter, chia seeds. (~307 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Dates Oats", price: "300", img: "images/Date oats smoothie.jpg.jpeg", desc: "Soaked dates, milk/oat milk. Natural sweetness + slow-release carbs. (~320 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Banana Peanut Butter", price: "260", img: "images/Banana peanut butter.jpg.jpeg", desc: "Banana, natural peanut butter, milk/oat milk, chia seeds. No added sugar. (~350 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Coffee Banana Energy ⭐", price: "399", img: "images/Coffee banana smoothie.jpg.jpeg", desc: "Banana, chilled brewed coffee, milk/oat milk, cocoa powder. Natural caffeine + potassium. (~260 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Chocolate Oats Smoothie ⭐", price: "250", img: "images/Chocolate pats smoothie.jpg.jpeg", desc: "Oats, banana, unsweetened cocoa, milk/oat milk. No sugar, slow carbs. (~310 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Avocado Smoothie Bowl", price: "360", img: "images/Avocado smoothie.jpg.jpeg", desc: "Ripe avocado, banana, milk/oat milk, honey or dates, chia seeds. (~375 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Vegan Plant Protein Smoothie", price: "280", img: "images/Vegan plant protein smoothie.jpg.jpeg", desc: "Spinach, banana, milk/oat milk, peanut butter, chia seeds. (~307 kcal)" },
 
     // ------------------------------------------------------------------------------------------------
     // ---------------------------------------DESSERTS-------------------------------------------------
