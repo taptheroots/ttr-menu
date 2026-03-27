@@ -29,17 +29,26 @@ const menuData = [
     // ---------------------------------------FOOD-----------------------------------------------------
     // ------------------------------------------------------------------------------------------------
 
-    // ── PARATHA BOWLS ─────────────────────────────────────────
-    { section: "food", cat: "Paratha Bowls", name: "Fresh Creamy Paneer", price: "335", img: "images/Fresh Cremy paneer.jpg", desc: "Fresh, creamy paneer stuffed in soft parathas, served warm for a comforting, wholesome bowl rooted in purity and rustic goodness" },
-    { section: "food", cat: "Paratha Bowls", name: "Mava Mirchi ⭐", price: "315", img: "images/Mava Mirchi.jpg", desc: "Spiced mava-stuffed green chilies wrapped in soft parathas, offering a bold, earthy bowl with rich, rustic flavors and organic warmth" },
-    { section: "food", cat: "Paratha Bowls", name: "Vegetable Keema 🌶️", price: "280", img: "images/Vegetable keema.jpg", desc: "Wholesome veggie keema filled in warm parathas, delivering a savory, textured bowl bursting with earthy spices" },
-    { section: "food", cat: "Paratha Bowls", name: "Chickpeas Khoya Bite", price: "270", img: "images/Chickpeas Khoya bites.jpg", desc: "Wholesome chana and rich khoya bites wrapped in soft parathas, creating a sweet-spicy, nourishing bowl full of earthy indulgence" },
-    { section: "food", cat: "Paratha Bowls", name: "Matar Magic Dal", price: "300", img: "images/Matar Magic Dal.jpg", desc: "Green peas and yellow dal slow-cooked with aromatic spices—a soul-soothing, flavorful experience packed with organic warmth" },
-    { section: "food", cat: "Paratha Bowls", name: "Green Harvest", price: "230", img: "images/Green Harvest.jpg", desc: "Exotic veggies blending vibrant flavors & nourishing goodness for a wholesome, deliciously healthy experience" },
-    { section: "food", cat: "Paratha Bowls", name: "Umami Mushroom ⭐", price: "335", img: "images/Luscious Mushroom.jpg", desc: "Delicate mushrooms infused with umami richness, wrapped in tender parathas—earthy, wholesome, comforting, and organically satisfying" },
-    { section: "food", cat: "Paratha Bowls", name: "Tandoor Garden 🌶️ ⭐", price: "290", img: "images/Tandoori Garden.jpg", desc: "Charred garden-fresh veggies kissed by tandoor flames, wrapped in soft parathas—smoky, vibrant, and soulfully organic" },
-    { section: "food", cat: "Paratha Bowls", name: "Chilli Paneer 🌶️", price: "345", img: "images/Chilli Paneer.jpg", desc: "Fiery chilli paneer tossed in TTR's secret spice blend—bold, aromatic, and soulful" },
-    { section: "food", cat: "Paratha Bowls", name: "Paneer Delight ⭐", price: "340", img: "images/Paneer Delight.jpg", desc: "Soft parathas filled with spiced paneer—creamy, comforting, rich in flavor, warmth, and pure organic indulgence" },
+    // ── INDO EUROPEAN PARATHA BOWLS ─────────────────────────────────────────
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Fresh Creamy Paneer", price: "350", img: "images/Fresh Cremy paneer.jpg", desc: "Fresh, creamy paneer stuffed in soft parathas, served warm for a comforting, wholesome bowl rooted in purity and rustic goodness" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Vegetable Keema 🌶️", price: "280", img: "images/Vegetable keema.jpg", desc: "Wholesome veggie keema filled in warm parathas, delivering a savory, textured bowl bursting with earthy spices" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Tandoor Garden 🌶️ ⭐", price: "290", img: "images/Tandoori Garden.jpg", desc: "Charred garden-fresh veggies kissed by tandoor flames, wrapped in soft parathas—smoky, vibrant, and soulfully organic" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Chickpeas Khoya Bite", price: "270", img: "images/Chickpeas Khoya bites.jpg", desc: "Wholesome chana and rich khoya bites wrapped in soft parathas, creating a sweet-spicy, nourishing bowl full of earthy indulgence" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Mava Mirchi ⭐", price: "315", img: "images/Mava Mirchi.jpg", desc: "Spiced mava-stuffed green chilies wrapped in soft parathas, offering a bold, earthy bowl with rich, rustic flavors and organic warmth" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Protein Delight (Low fat Paneer) ⭐", price: "350", img: "images/Paneer Delight.jpg", desc: "Soft parathas filled with spiced high protein, low fat paneer—creamy, comforting, rich in flavor, warmth, and pure organic indulgence" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Umami Mushroom ⭐", price: "335", img: "images/Luscious Mushroom.jpg", desc: "Delicate mushrooms infused with umami richness, wrapped in tender parathas—earthy, wholesome, comforting, and organically satisfying" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Matar Magic Dal", price: "300", img: "images/Matar Magic Dal.jpg", desc: "Green peas and yellow dal slow-cooked with aromatic spices—a soul-soothing, flavorful experience packed with organic warmth" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Chilli Paneer 🌶️", price: "345", img: "images/Chilli Paneer.jpg", desc: "Fiery chilli paneer tossed in TTR's secret spice blend—bold, aromatic, and soulful" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Green Harvest", price: "230", img: "images/Green Harvest.jpg", desc: "Exotic veggies blending vibrant flavors & nourishing goodness for a wholesome, deliciously healthy experience" },
+
+    // ── DESI PARATHA BOWLS ────────────────────────────────────
+    { section: "food", cat: "Desi Paratha Bowls", name: "Shahi Paneer Makhani 👑", price: "380", img: "", desc: "Velvety shahi paneer slow-cooked in a rich, aromatic makhani gravy — regal, buttery, and soul-satisfying, wrapped in warm organic parathas" },
+    { section: "food", cat: "Desi Paratha Bowls", name: "Palak Paneer 💪 (High Protein)", price: "280", img: "", desc: "Farm-fresh spinach blended with soft organic paneer — packed with protein, earthy green goodness, and nourishing desi warmth" },
+    { section: "food", cat: "Desi Paratha Bowls", name: "Malai Kofta", price: "310", img: "", desc: "Melt-in-the-mouth koftas simmered in a creamy, mildly spiced malai gravy — indulgent, rich, and rooted in classic desi comfort" },
+    { section: "food", cat: "Desi Paratha Bowls", name: "Kaju Curry", price: "320", img: "", desc: "Plump cashews slow-cooked in a velvety, aromatic curry — nutty, luxurious, and deeply satisfying with every wholesome bite" },
+    { section: "food", cat: "Desi Paratha Bowls", name: "Kadhai Paneer ⭐ (Chef Special) 👨‍🍳", price: "329", img: "", desc: "Paneer tossed in a bold, smoky kadhai masala with bell peppers and whole spices — the chef's pride, fiery, and organically irresistible" },
+    { section: "food", cat: "Desi Paratha Bowls", name: "Butter Paneer Masala", price: "320", img: "", desc: "Tender paneer cubes bathed in a luscious, buttery tomato masala — smooth, warming, and a timeless desi classic" },
+    { section: "food", cat: "Desi Paratha Bowls", name: "Mix Veg", price: "299", img: "", desc: "A wholesome medley of seasonal vegetables slow-cooked in desi spices — vibrant, hearty, and rooted in the goodness of nature" },
 
     // ── RICE BOWLS ────────────────────────────────────────────
     { section: "food", cat: "Rice Bowls", name: "Green Garden Fresh", price: "330", img: "images/Green Garden Fresh.jpg.jpeg", desc: "Garden-fresh exotic veggies sautéed and served over organic rice—colorful, crunchy, and earthy" },
@@ -285,13 +294,14 @@ const menuData = [
 
 // ── Hero images for bowl categories ─────────────────────────────
 const categoryHeroImages = {
-    "Paratha Bowls": "images/paratha-bowl-hero.jpg",
+    "Indo-European Paratha Bowls": "images/paratha-bowl-hero.jpg",
+    "Desi Paratha Bowls": "images/desi-paratha-bowl-hero.jpg",
     "Rice Bowls": "images/rice-bowl-hero.jpg"
 };
 
 // ── Build-your-bowl steps ────────────────────────────────────────
 const categorySteps = {
-    "Paratha Bowls": {
+    "Indo-European Paratha Bowls": {
         intro: "🌟 Let's prepare your Paratha Bowl — The Indian Taco 👨‍🍳",
         steps: [
             { number: "Step 1", title: "Choose Your Flavour" },
@@ -302,6 +312,21 @@ const categorySteps = {
                     { name: "Regular Bread", desc: "Wholesome, earthy, organic gehu Sharbati flour—pure nourishment" },
                     { name: "Multigrain Bread", desc: "Nutritious, earthy multigrain flour—wholesome, hearty, naturally pure" },
                     { name: "Exotic Bread - 100% Wheat Sourdough", desc: "Gehu ka Atta, richly nut stuffed & seed-garnished, purely nourishing" }
+                ]
+            }
+        ]
+    },
+    "Desi Paratha Bowls": {
+        intro: "🌟 Let's prepare your Desi Paratha Bowl — Pure Desi Comfort 👨‍🍳",
+        steps: [
+            { number: "Step 1", title: "Choose Your Flavour" },
+            {
+                number: "Step 2",
+                title: "Choose Your Paratha",
+                options: [
+                    { name: "Regular Bread", desc: "Wholesome, earthy, organic gehu Sharbati flour—pure nourishment" },
+                    { name: "Multigrain Bread", desc: "Nutritious, earthy multigrain flour—wholesome, hearty, naturally pure" },
+                    { name: "Exotic Bread", desc: "Gehu ka Atta, richly nut stuffed & seed-garnished, purely nourishing" }
                 ]
             }
         ]
@@ -330,7 +355,8 @@ const categorySteps = {
 
 // ── Category footer notes ────────────────────────────────────────
 const categoryNotes = {
-    "Paratha Bowls": "<strong>Every bite is filled with:</strong> Lettuce, bell peppers, pickled veggies, jalapeños, olives, smoky burnt garlic, onion chutney, peanut chutney, cheese sauce & imli chutney — flavour-packed, organic & complementary.",
+    "Indo-European Paratha Bowls": "<strong>Every bite is filled with:</strong> Lettuce, bell peppers, pickled veggies, jalapeños, olives, smoky burnt garlic, onion chutney, peanut chutney, cheese sauce & imli chutney — flavour-packed, organic & complementary.",
+    "Desi Paratha Bowls": "<strong>Every bite is filled with:</strong> Lettuce, bell peppers, pickled veggies, jalapeños, olives, smoky burnt garlic, onion chutney, peanut chutney, cheese sauce & imli chutney — flavour-packed, organic & complementary.",
     "Rice Bowls": "<strong>Every bite is filled with:</strong> Organic boiled moong, fresh lettuce, sauté bell pepper, falafel tikki, papad, sautéed vegetables, masala ring onions & basil — garnished with dry fruits & paired with makhni and coconut gravy.",
     "Pizza": `
         <div class="pizza-note">
