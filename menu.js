@@ -40,10 +40,11 @@ const menuData = [
     { section: "food", cat: "Indo-European Paratha Bowls", name: "Matar Magic Dal", price: "300", img: "images/Matar Magic Dal.jpg", desc: "Green peas and yellow dal slow-cooked with aromatic spices—a soul-soothing, flavorful experience packed with organic warmth" },
     { section: "food", cat: "Indo-European Paratha Bowls", name: "Chilli Paneer 🌶️", price: "345", img: "images/Chilli Paneer.jpg", desc: "Fiery chilli paneer tossed in TTR's secret spice blend—bold, aromatic, and soulful" },
     { section: "food", cat: "Indo-European Paratha Bowls", name: "Green Harvest", price: "230", img: "images/Green Harvest.jpg", desc: "Exotic veggies blending vibrant flavors & nourishing goodness for a wholesome, deliciously healthy experience" },
-
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Mediterranean Tomato Broccoli", price: "279", img: "", desc: "Sun-kissed tomatoes and tender broccoli tossed in Mediterranean herbs and olive oil, wrapped in warm organic parathas — light, vibrant, and wholesomely satisfying" },
+    { section: "food", cat: "Indo-European Paratha Bowls", name: "Guacamole", price: "349", img: "", desc: "Creamy, freshly made guacamole with ripe avocado, lime, and herbs, wrapped in warm organic parathas — smooth, rich, and deliciously wholesome" },
     // ── DESI PARATHA BOWLS ────────────────────────────────────
     { section: "food", cat: "Desi Paratha Bowls", name: "Shahi Paneer Makhani 👑", price: "380", img: "", desc: "Velvety shahi paneer slow-cooked in a rich, aromatic makhani gravy — regal, buttery, and soul-satisfying, wrapped in warm organic parathas" },
-    { section: "food", cat: "Desi Paratha Bowls", name: "Palak Paneer 💪 (High Protein)", price: "280", img: "", desc: "Farm-fresh spinach blended with soft organic paneer — packed with protein, earthy green goodness, and nourishing desi warmth" },
+    { section: "food", cat: "Desi Paratha Bowls", name: "Palak Paneer 💪 (High Protein) 👨‍🍳", price: "280", img: "", desc: "Farm-fresh spinach blended with soft organic paneer — packed with protein, earthy green goodness, and nourishing desi warmth" },
     { section: "food", cat: "Desi Paratha Bowls", name: "Malai Kofta", price: "310", img: "", desc: "Melt-in-the-mouth koftas simmered in a creamy, mildly spiced malai gravy — indulgent, rich, and rooted in classic desi comfort" },
     { section: "food", cat: "Desi Paratha Bowls", name: "Kaju Curry", price: "320", img: "", desc: "Plump cashews slow-cooked in a velvety, aromatic curry — nutty, luxurious, and deeply satisfying with every wholesome bite" },
     { section: "food", cat: "Desi Paratha Bowls", name: "Kadhai Paneer ⭐ (Chef Special) 👨‍🍳", price: "329", img: "", desc: "Paneer tossed in a bold, smoky kadhai masala with bell peppers and whole spices — the chef's pride, fiery, and organically irresistible" },
@@ -62,17 +63,21 @@ const menuData = [
     { section: "food", cat: "Rice Bowls", name: "Chilli Paneer 🌶️", price: "340", img: "images/Chilli paneer.jpg.jpeg", desc: "Tender organic paneer in fiery chilli sauce over wholesome rice—bold, spicy Indo-Chinese fusion" },
     { section: "food", cat: "Rice Bowls", name: "Ragi Manchurian 🌶️", price: "250", img: "images/Ragi Manchurian.jpg.jpeg", desc: "Crispy ragi manchurian over organic rice, blending ancient grains with zesty spices" },
     { section: "food", cat: "Rice Bowls", name: "Mughlai Dry Fruit Delight", price: "420", img: "images/Mughlai Dry fruit.jpg.jpeg", desc: "Mughlai spices and dry fruits slow-cooked over organic rice—warm, nutty, aromatic indulgence" },
+    { section: "food", cat: "Rice Bowls", name: "Garlic Soy Butter Broccoli", price: "399", img: "", desc: "Tender broccoli tossed in garlic, soy & butter over organic rice — rich in fiber, wholesome, and deeply satisfying" },
 
     // ── APPETIZERS ──────────────────────────────────────────────
-    { section: "food", cat: "Appetizers", name: "Millet Nacho Bhel ⭐", price: "260", img: "images/Millet nacho bhel.jpg.jpeg", desc: "Millet Nachos with in-house fresh cheese sauce and Salsa" },
-    { section: "food", cat: "Appetizers", name: "European Paneer Pakoda", price: "250", img: "images/European paneer pakoda.jpg.jpeg", desc: "Stuffed with spicy Thai green paste, sourdough coated, lightly fried in organic peanut oil" },
-    { section: "food", cat: "Appetizers", name: "Indo-European Chola Bhatura ⭐", price: "140", img: "images/Info European chola bhatura.jpg.jpeg", desc: "Mini pleasure with hummus and in-house sauces with freshly made chola" },
-    { section: "food", cat: "Appetizers", name: "Chilli Paneer Dry", price: "190", img: "images/Chilli paneer dry.jpg.jpeg", desc: "Classic preparation of paneer with sauces" },
-    { section: "food", cat: "Appetizers", name: "Chilli Ragi Manchurian Dry", price: "170", img: "images/Ragi Manchurian dry.jpg.jpeg", desc: "Classic preparation of ragi manchurian with sauces" },
-    // { section: "food", cat: "Appetizers", name: "Onion Rings ⭐", price: "150", img: "images/Onion rings.jpg.jpeg", desc: "Sourdough coated onion rings, lightly fried in organic peanut oil" },
-    // { section: "food", cat: "Appetizers", name: "Exotic Veg Crunch", price: "180", img: "images/Veggie exotic toast.jpg.jpeg", desc: "Seasonal exotic veggies, sourdough coated, lightly fried in organic peanut oil" },
-    // { section: "food", cat: "Appetizers", name: "Crispy Mushroom", price: "160", img: "images/Crispy mushroom.jpg.jpeg", desc: "Fresh mushrooms, sourdough coated, lightly fried in organic peanut oil" },
-
+    { section: "food", cat: "Quick Bites", name: "Millet Nacho Bhel ⭐", price: "260", img: "images/Millet nacho bhel.jpg.jpeg", desc: "Millet Nachos with in-house fresh cheese sauce and Salsa" },
+    // { section: "food", cat: "Quick Bites", name: "European Paneer Pakoda", price: "250", img: "images/European paneer pakoda.jpg.jpeg", desc: "Stuffed with spicy Thai green paste, sourdough coated, lightly fried in organic peanut oil" },
+    { section: "food", cat: "Quick Bites", name: "Indo-European Chola Bhatura ⭐", price: "140", img: "images/Info European chola bhatura.jpg.jpeg", desc: "Mini pleasure with hummus and in-house sauces with freshly made chola" },
+    { section: "food", cat: "Quick Bites", name: "Chilli Paneer Dry", price: "190", img: "images/Chilli paneer dry.jpg.jpeg", desc: "Classic preparation of paneer with sauces" },
+    // { section: "food", cat: "Quick Bites", name: "Chilli Ragi Manchurian Dry", price: "170", img: "images/Ragi Manchurian dry.jpg.jpeg", desc: "Classic preparation of ragi manchurian with sauces" },
+    // { section: "food", cat: "Quick Bites", name: "Onion Rings ⭐", price: "150", img: "images/Onion rings.jpg.jpeg", desc: "Sourdough coated onion rings, lightly fried in organic peanut oil" },
+    // { section: "food", cat: "Quick Bites", name: "Exotic Veg Crunch", price: "180", img: "images/Veggie exotic toast.jpg.jpeg", desc: "Seasonal exotic veggies, sourdough coated, lightly fried in organic peanut oil" },
+    // { section: "food", cat: "Quick Bites", name: "Crispy Mushroom", price: "160", img: "images/Crispy mushroom.jpg.jpeg", desc: "Fresh mushrooms, sourdough coated, lightly fried in organic peanut oil" },
+    { section: "food", cat: "Quick Bites", name: "Makhana Bhel", price: "260", img: "images/Makhana bhel.jpg.jpeg", desc: "Crispy roasted makhana tossed with fresh veggies, and TTR's signature spice blend — light, crunchy, and guilt-free snacking at its best" },
+    { section: "food", cat: "Quick Bites", name: "Shahi Paneer Tikka", price: "299", img: "images/.jpg.jpeg", desc: "Tender paneer cubes marinated in a rich, aromatic shahi spice mix and grilled to perfection — smoky, creamy, and royally indulgent in every bite" },
+    { section: "food", cat: "Quick Bites", name: "Galouti Kebab", price: "229", img: "", desc: "Melt-in-the-mouth chana galouti kebab — soft, richly spiced, and slow-cooked with aromatic desi masalas for a truly royal bite" },
+    { section: "food", cat: "Quick Bites", name: "Protein Galouti Kebab 💪", price: "259", img: "", desc: "A high-protein twist on the classic — soft, melt-in-the-mouth kebab crafted with fresh paneer and aromatic desi spices, indulgent yet nourishing in every bite" },
     // ── PIZZA ─────────────────────────────────────────────────────
     // — Sourdough —
     { section: "food", cat: "Pizza", name: "Margherita", price: "120 / 240", img: "images/Margherita.jpg.jpeg", desc: "🫓 Sourdough crust | Fresh tomato sauce, Mozzarella, virgin Olive oil" },
@@ -93,19 +98,17 @@ const menuData = [
     { section: "food", cat: "Soya Bowls", name: "Tandoori Soya Chaap 🌶️", price: "330 / 370", img: "", desc: "Marinated, grilled smoky chaap with in-house tandoori sauce. (Paratha / Rice)" },
     { section: "food", cat: "Soya Bowls", name: "Crispy Soya 65", price: "320 / 340", img: "", desc: "Spiced, fried, crunchy, tangy, flavorful. (Paratha / Rice)" },
 
-    // ── PASTA ─────────────────────────────────────────────────
-    { section: "food", cat: "Pasta", name: "Aglio e Olio Pasta", price: "300", img: "images/Agglio è olio pasta.jpg.jpeg", desc: "Pasta boiled al dente and tossed with garlic and olive oil" },
-    { section: "food", cat: "Pasta", name: "Cheese Sauce Pasta ⭐", price: "320", img: "images/White cheese sauce pasta.jpg.jpeg", desc: "Pasta tossed with in-house creamy cheese sauce and Italian spices" },
-    { section: "food", cat: "Pasta", name: "Arrabbiata Pasta 🌶️", price: "310", img: "images/Arrabbiata pasta.jpg.jpeg", desc: "Pasta tossed in fresh and spicy tomato red gravy" },
-    { section: "food", cat: "Pasta", name: "Green Pesto Cream Pasta ⭐", price: "400", img: "images/Green pesto creamy pasta.jpg.jpeg", desc: "Pasta tossed with in-house fresh basil creamy pesto sauce" },
-    { section: "food", cat: "Pasta", name: "Mushroom Sauce Pasta", price: "320", img: "images/Mushroom sauce Pasta.jpg.jpeg", desc: "Pasta tossed with a creamy and cheesy mushroom sauce" },
-
-    // ── NOODLES ───────────────────────────────────────────────
-    { section: "food", cat: "Noodles", name: "Vegetable Noodles", price: "210", img: "images/Vegetable Noodles.jpg.jpeg", desc: "Noodles tossed with fresh veggies and flavorful spices" },
-    { section: "food", cat: "Noodles", name: "Schezwan Noodles", price: "250", img: "images/Schezwan Noodles.jpg.jpeg", desc: "Noodles tossed with tomato schezwan sauce" },
-    { section: "food", cat: "Noodles", name: "Burnt Garlic Noodles ⭐", price: "250", img: "images/Burnt Garlic Noodles.jpg.jpeg", desc: "Noodles tossed with in-house smoky and garlicky flavored sauce" },
-    { section: "food", cat: "Noodles", name: "Singapori Noodles 🌶️", price: "290", img: "images/Singapuri Noodles.jpg.jpeg", desc: "Noodles tossed with sauté paneer and cashews with a twist of spices" },
-    { section: "food", cat: "Noodles", name: "Hakka Noodles", price: "280", img: "images/Hakka Noodles.jpg.jpeg", desc: "Noodles tossed with paneer and mushroom" },
+    // ── PASTA/NOODLES ─────────────────────────────────────────────────
+   // { section: "food", cat: "Pasta/Noodles", name: "Aglio e Olio Pasta", price: "300", img: "images/Agglio è olio pasta.jpg.jpeg", desc: "Pasta boiled al dente and tossed with garlic and olive oil" },
+    { section: "food", cat: "Pasta/Noodles", name: "Cheese Sauce Pasta ⭐", price: "320", img: "images/White cheese sauce pasta.jpg.jpeg", desc: "Pasta tossed with in-house creamy cheese sauce and Italian spices" },
+    { section: "food", cat: "Pasta/Noodles", name: "Arrabbiata Pasta 🌶️", price: "310", img: "images/Arrabbiata pasta.jpg.jpeg", desc: "Pasta tossed in fresh and spicy tomato red gravy" },
+    { section: "food", cat: "Pasta/Noodles", name: "Green Pesto Cream Pasta ⭐", price: "400", img: "images/Green pesto creamy pasta.jpg.jpeg", desc: "Pasta tossed with in-house fresh basil creamy pesto sauce" },
+   // { section: "food", cat: "Pasta/Noodles", name: "Mushroom Sauce Pasta", price: "320", img: "images/Mushroom sauce Pasta.jpg.jpeg", desc: "Pasta tossed with a creamy and cheesy mushroom sauce" },
+    { section: "food", cat: "Pasta/Noodles", name: "Vegetable Noodles", price: "210", img: "images/Vegetable Noodles.jpg.jpeg", desc: "Noodles tossed with fresh veggies and flavorful spices" },
+  //  { section: "food", cat: "Pasta/Noodles", name: "Schezwan Noodles", price: "250", img: "images/Schezwan Noodles.jpg.jpeg", desc: "Noodles tossed with tomato schezwan sauce" },
+    { section: "food", cat: "Pasta/Noodles", name: "Burnt Garlic Noodles ⭐", price: "250", img: "images/Burnt Garlic Noodles.jpg.jpeg", desc: "Noodles tossed with in-house smoky and garlicky flavored sauce" },
+   // { section: "food", cat: "Pasta/Noodles", name: "Singapori Noodles 🌶️", price: "290", img: "images/Singapuri Noodles.jpg.jpeg", desc: "Noodles tossed with sauté paneer and cashews with a twist of spices" },
+    { section: "food", cat: "Pasta/Noodles", name: "Hakka Noodles", price: "280", img: "images/Hakka Noodles.jpg.jpeg", desc: "Noodles tossed with paneer and mushroom" },
 
     // ── BRUSCHETTA ────────────────────────────────────────────
     // { section: "food", cat: "Bruschetta", name: "Italian Classic Bruschetta ⭐", price: "250", img: "images/Indian classic Bruschetta.jpg.jpeg", desc: "Sourdough topped with tomato in garlicky olive oil with cheese" },
