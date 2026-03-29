@@ -58,6 +58,7 @@ const menuData = [
     { section: "food", cat: "Rice Bowls", name: "Corn Affair (Fry/Sauté)", price: "310", img: "images/Corn Afire.jpg.jpeg", desc: "Golden corn and baby corn with fire-roasted spices over organic rice—smoky-sweet, rustic, and naturally comforting" },
     { section: "food", cat: "Rice Bowls", name: "Exotic Veggie (Fry/Sauté)", price: "345", img: "images/Veggie exotic rice bowl.jpg.jpeg", desc: "Farm-fresh exotic veggies, baby corn, mushrooms tossed in spices over organic rice" },
     { section: "food", cat: "Rice Bowls", name: "Thai Green Curry 🌶️", price: "335", img: "images/Thai green curry.jpg.jpeg", desc: "Thai green curry infused with coconut milk with exotic veggies over organic rice—creamy, herbal, and soulfully nourishing" },    { section: "food", cat: "Rice Bowls", name: "Shahi Paneer Makhani", price: "370", img: "images/Shahi paneer makhni.jpg.jpeg", desc: "Creamy shahi paneer in buttery makhni gravy over organic rice—regal, spiced, and soulfully nourishing" },
+    { section: "food", cat: "Rice Bowls", name: "Rajma Chola Masala", price: "260", img: "images/Rajma chola masala.jpg.jpeg", desc: "Rajma and chola in desi masalas over organic rice—hearty, spicy, and comforting" },
     { section: "food", cat: "Rice Bowls", name: "Dal Makhani", price: "280", img: "images/Dal Makhni.jpg.jpeg", desc: "Slow-cooked Punjabi dal makhni over organic rice—buttery comfort, rich, earthy, and nourishing" },
     { section: "food", cat: "Rice Bowls", name: "Chilli Paneer 🌶️", price: "340", img: "images/Chilli paneer.jpg.jpeg", desc: "Tender organic paneer in fiery chilli sauce over wholesome rice—bold, spicy Indo-Chinese fusion" },
     { section: "food", cat: "Rice Bowls", name: "Ragi Manchurian 🌶️", price: "250", img: "images/Ragi Manchurian.jpg.jpeg", desc: "Crispy ragi manchurian over organic rice, blending ancient grains with zesty spices" },
@@ -158,7 +159,7 @@ const menuData = [
 
 
     // ------------------------------------------------------------------------------------------------
-    // ---------------------------------------BUQCYdXT16Xxzr1qCSVxxntce0-UYXmcqJ_aodkoq39Fv2E6f--------
+    // ----------------------------------------BEVERAGES-----------------------------------------------
     // ------------------------------------------------------------------------------------------------
 
     // ── HOT COFFEE (BLACK) ────────────────────────────────────
@@ -282,7 +283,7 @@ const menuData = [
     // { section: "beverages", cat: "Smoothies", name: "Vegan Plant Protein Smoothie", price: "280", img: "images/Vegan plant protein smoothie.jpg.jpeg", desc: "Spinach, banana, milk/oat milk, peanut butter, chia seeds. (~307 kcal)" },
 
     // ------------------------------------------------------------------------------------------------
-    // ---------------------------------------DUQCYdXT16Xxzr1qCSVxxntce0-UYXmcqJ_aodkoq39Fv2E6f--------
+    // ----------------------------------------DESSERTS------------------------------------------------
     // ------------------------------------------------------------------------------------------------
 
     // ── CAKES & BAKES ─────────────────────────────────────────
