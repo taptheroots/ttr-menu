@@ -277,12 +277,12 @@ const menuData = [
     { section: "beverages ", cat: "Milkshakes ", name: "Mocha Energy Shake ", price: "295 ", img: "", desc: "Bold espresso blended with chocolate and milk for a rich, energising mocha shake" },
 
     // ── SMOOTHIES ─────────────────────────────────────────────
-    // { section: "beverages", cat: "Smoothies", name: "Dates Oats", price: "300", img: "images/Date oats smoothie.jpg.jpeg", desc: "Soaked dates, milk/oat milk. Natural sweetness + slow-release carbs. (~320 kcal)" },
-    // { section: "beverages", cat: "Smoothies", name: "Banana Peanut Butter", price: "260", img: "images/Banana peanut butter.jpg.jpeg", desc: "Banana, natural peanut butter, milk/oat milk, chia seeds. No added sugar. (~350 kcal)" },
-    // { section: "beverages", cat: "Smoothies", name: "Coffee Banana Energy ⭐", price: "399", img: "images/Coffee banana smoothie.jpg.jpeg", desc: "Banana, chilled brewed coffee, milk/oat milk, cocoa powder. Natural caffeine + potassium. (~260 kcal)" },
-    // { section: "beverages", cat: "Smoothies", name: "Chocolate Oats Smoothie ⭐", price: "250", img: "images/Chocolate pats smoothie.jpg.jpeg", desc: "Oats, banana, unsweetened cocoa, milk/oat milk. No sugar, slow carbs. (~310 kcal)" },
-    // { section: "beverages", cat: "Smoothies", name: "Avocado Smoothie Bowl", price: "360", img: "images/Avocado smoothie.jpg.jpeg", desc: "Ripe avocado, banana, milk/oat milk, honey or dates, chia seeds. (~375 kcal)" },
-    // { section: "beverages", cat: "Smoothies", name: "Vegan Plant Protein Smoothie", price: "280", img: "images/Vegan plant protein smoothie.jpg.jpeg", desc: "Spinach, banana, milk/oat milk, peanut butter, chia seeds. (~307 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Dates Oats", price: "300", img: "images/beverages/Smoothies/Date oats smoothie.jpeg", desc: "Soaked dates, milk/oat milk. Natural sweetness + slow-release carbs. (~320 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Banana Peanut Butter", price: "260", img: "images/beverages/Smoothies/Banana peanut butter.jpeg", desc: "Banana, natural peanut butter, milk/oat milk, chia seeds. No added sugar. (~350 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Coffee Banana Energy ⭐", price: "399", img: "images/beverages/Smoothies/Coffee banana smoothie.jpeg", desc: "Banana, chilled brewed coffee, milk/oat milk, cocoa powder. Natural caffeine + potassium. (~260 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Chocolate Oats Smoothie ⭐", price: "250", img: "images/beverages/Smoothies/Chocolate oats smoothie.jpeg", desc: "Oats, banana, unsweetened cocoa, milk/oat milk. No sugar, slow carbs. (~310 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Avocado Smoothie Bowl", price: "360", img: "images/beverages/Smoothies/Avocado smoothie.jpeg", desc: "Ripe avocado, banana, milk/oat milk, honey or dates, chia seeds. (~375 kcal)" },
+    // { section: "beverages", cat: "Smoothies", name: "Vegan Plant Protein Smoothie", price: "280", img: "images/beverages/Smoothies/Vegan plant protein smoothie.jpeg", desc: "Spinach, banana, milk/oat milk, peanut butter, chia seeds. (~307 kcal)" },
 
     // ------------------------------------------------------------------------------------------------
     // ----------------------------------------DESSERTS------------------------------------------------
