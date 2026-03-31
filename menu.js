@@ -57,7 +57,7 @@ const menuData = [
     { section: "food", cat: "Rice Bowls", name: "Crispy Mushroom (Fry/Sauté)", price: "345", img: "images/Rice Bowls/Crispy mushroom rice bowl.jpeg", desc: "Fried/sauté mushrooms over fragrant rice, infused with organic spices and herbs, with two infused gravies" },
     { section: "food", cat: "Rice Bowls", name: "Corn Affair (Fry/Sauté)", price: "310", img: "images/Rice Bowls/Corn Afire.jpeg", desc: "Golden corn and baby corn with fire-roasted spices over organic rice—smoky-sweet, rustic, and naturally comforting" },
     { section: "food", cat: "Rice Bowls", name: "Exotic Veggie (Fry/Sauté)", price: "345", img: "images/Rice Bowls/Veggie exotic rice bowl.jpeg", desc: "Farm-fresh exotic veggies, baby corn, mushrooms tossed in spices over organic rice" },
-    { section: "food", cat: "Rice Bowls", name: "Thai Green Curry 🌶️", price: "335", img: "images/Rice Bowls/Thai green curry.jpeg", desc: "Thai green curry infused with coconut milk with exotic veggies over organic rice—creamy, herbal, and soulfully nourishing" },    
+    { section: "food", cat: "Rice Bowls", name: "Thai Green Curry 🌶️", price: "335", img: "images/Rice Bowls/Thai green curry.jpeg", desc: "Thai green curry infused with coconut milk with exotic veggies over organic rice—creamy, herbal, and soulfully nourishing" },
     { section: "food", cat: "Rice Bowls", name: "Shahi Paneer Makhani", price: "370", img: "images/Rice Bowls/Shahi paneer makhni.jpeg", desc: "Creamy shahi paneer in buttery makhni gravy over organic rice—regal, spiced, and soulfully nourishing" },
     { section: "food", cat: "Rice Bowls", name: "Rajma Chola Masala", price: "260", img: "images/Rice Bowls/Rajma chola masala.jpeg", desc: "Rajma and chola in desi masalas over organic rice—hearty, spicy, and comforting" },
     { section: "food", cat: "Rice Bowls", name: "Dal Makhani", price: "280", img: "images/Rice Bowls/Dal Makhni.jpeg", desc: "Slow-cooked Punjabi dal makhni over organic rice—buttery comfort, rich, earthy, and nourishing" },
@@ -80,7 +80,7 @@ const menuData = [
     { section: "food", cat: "Quick Bites", name: "Shahi Paneer Tikka", price: "299", img: "images/Quick Bites/Shahi paneer tikka.jpeg", desc: "Tender paneer cubes marinated in a rich, aromatic shahi spice mix and grilled to perfection — smoky, creamy, and royally indulgent in every bite" },
     { section: "food", cat: "Quick Bites", name: "Galouti Kebab", price: "229", img: "images/Quick Bites/Galauti kebab.jpeg", desc: "Melt-in-the-mouth chana galouti kebab — soft, richly spiced, and slow-cooked with aromatic desi masalas for a truly royal bite" },
     { section: "food", cat: "Quick Bites", name: "Protein Galouti Kebab 💪", price: "259", img: "images/Quick Bites/Protein galauti kebab.jpeg", desc: "A high-protein twist on the classic — soft, melt-in-the-mouth kebab crafted with fresh paneer and aromatic desi spices, indulgent yet nourishing in every bite" },
-    
+
     // ── PIZZA ─────────────────────────────────────────────────────
     // — Sourdough —
     { section: "food", cat: "Pizza", name: "Margherita", price: "120 / 240", img: "images/Pizza/Margherita.jpeg", desc: "🫓 Sourdough crust | Fresh tomato sauce, Mozzarella, virgin Olive oil" },
