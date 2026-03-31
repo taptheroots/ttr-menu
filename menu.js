@@ -96,10 +96,10 @@ const menuData = [
 
 
     // ── SOYA BOWLS ────────────────────────────────────────────
-    { section: "food", cat: "Soya Bowls", name: "Chilli Garlic Soya Chaap ⭐", price: "265 / 320", img: "", desc: "Chilli garlic soya chaap stir-fried spicy savory Indo-Chinese. (Paratha / Rice)" },
-    { section: "food", cat: "Soya Bowls", name: "Malai Soya Chaap", price: "370 / 390", img: "", desc: "Malai soya chaap cooked creamy with mild spices and rich flavor. (Paratha / Rice)" },
-    { section: "food", cat: "Soya Bowls", name: "Tandoori Soya Chaap 🌶️", price: "330 / 370", img: "", desc: "Marinated, grilled smoky chaap with in-house tandoori sauce. (Paratha / Rice)" },
-    { section: "food", cat: "Soya Bowls", name: "Crispy Soya 65", price: "320 / 340", img: "", desc: "Spiced, fried, crunchy, tangy, flavorful. (Paratha / Rice)" },
+    { section: "food", cat: "Soya Bowls", name: "Chilli Garlic Soya Chaap ⭐", price: "265 / 320", img: "images/Soya Bowls/Chilli garlic soya.jpeg", desc: "Chilli garlic soya chaap stir-fried spicy savory Indo-Chinese. (Paratha / Rice)" },
+    { section: "food", cat: "Soya Bowls", name: "Malai Soya Chaap", price: "370 / 390", img: "images/Soya Bowls/Malai soya.jpeg", desc: "Malai soya chaap cooked creamy with mild spices and rich flavor. (Paratha / Rice)" },
+    { section: "food", cat: "Soya Bowls", name: "Tandoori Soya Chaap 🌶️", price: "330 / 370", img: "images/Soya Bowls/Tandoori soya.jpeg", desc: "Marinated, grilled smoky chaap with in-house tandoori sauce. (Paratha / Rice)" },
+    { section: "food", cat: "Soya Bowls", name: "Crispy Soya 65", price: "320 / 340", img: "images/Soya Bowls/Crispy soya 65.jpeg", desc: "Spiced, fried, crunchy, tangy, flavorful. (Paratha / Rice)" },
 
     // ── PASTA/NOODLES ─────────────────────────────────────────────────
     // { section: "food", cat: "Pasta/Noodles", name: "Aglio e Olio Pasta", price: "300", img: "images/Pasta_Noodles/Agglio è olio pasta.jpeg", desc: "Pasta boiled al dente and tossed with garlic and olive oil" },
@@ -132,7 +132,7 @@ const menuData = [
     { section: "food", cat: "Sandwich", name: "Paneer Tandoori Sandwich ⭐", price: "270", img: "images/Sandwiches/Paneer tandoori sandwitch.jpeg", desc: "In-house tandoori sauce filled with paneer served with multigrain bread" },
     { section: "food", cat: "Sandwich", name: "Tandoori Soya Sandwich", price: "199", img: "images/Sandwiches/Tandoori_soya.jpeg", desc: "Multigrain sandwich with in-house cheese sauce, lettuce, tomato, and cucumber" },
     { section: "food", cat: "Sandwich", name: "Classic Grilled Sandwich", price: "150", img: "images/Sandwiches/Classic_grilled.jpeg", desc: "Grilled multigrain sandwich with in-house cheese sauce and fresh veggies" },
-    { section: "food", cat: "Sandwich", name: "Peri Peri Veg Crunch", price: "200", img: "", desc: "Crispy exotic veggies tossed in bold in-house peri peri spice, packed into multigrain bread — crunchy, spicy, and satisfying" },
+    { section: "food", cat: "Sandwich", name: "Peri Peri Veg Crunch", price: "200", img: "images/Sandwiches/Peri peri veg crunch.jpeg", desc: "Crispy exotic veggies tossed in bold in-house peri peri spice, packed into multigrain bread — crunchy, spicy, and satisfying" },
 
     // ── FRENCH FRIES ──────────────────────────────────────────
     // { section: "food", cat: "French Fries", name: "Classic Salted French Fries", price: "120", img: "images/French Fries/Classic salted French fries.jpeg", desc: "Classic fries seasoned with salt" },
