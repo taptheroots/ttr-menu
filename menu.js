@@ -66,7 +66,7 @@ const menuData = [
     { section: "food", cat: "Rice Bowls", name: "Garlic Soy Butter Broccoli", price: "399", img: "images/Food/Rice Bowls/Garlic soy butter rice bowl.jpeg", desc: "Tender broccoli tossed in garlic, soy & butter over organic rice — rich in fiber, wholesome, and deeply satisfying" },
 
     // ── QUICK BITES ──────────────────────────────────────────────
-    { section: "food", cat: "Quick Bites", name: "Garlic Bread", price: "199", img: "images/Food/Quick Bites/Garlic bread.jpeg", desc: "Freshly toasted sourdough slices infused with aromatic garlic butter and mixed Italian herbs." },
+    { section: "food", cat: "Quick Bites", name: "Stuffed Garlic Bread", price: "199", img: "images/Food/Quick Bites/Garlic bread.jpeg", desc: "Freshly toasted sourdough slices infused with aromatic garlic butter and mixed Italian herbs." },
     { section: "food", cat: "Quick Bites", name: "Millet Nacho Bhel ⭐", price: "260", img: "images/Food/Quick Bites/Millet nacho bhel.jpeg", desc: "Millet Nachos with in-house fresh cheese sauce and Salsa" },
     // { section: "food", cat: "Quick Bites", name: "European Paneer Pakoda", price: "250", img: "images/Food/Quick Bites/European paneer pakoda.jpg.jpeg", desc: "Stuffed with spicy Thai green paste, sourdough coated, lightly fried in organic peanut oil" },
     { section: "food", cat: "Quick Bites", name: "Indo-European Chola Bhatura ⭐", price: "140", img: "images/Food/Quick Bites/Indo European chola bhatura.jpeg", desc: "Mini pleasure with hummus and in-house sauces with freshly made chola" },
