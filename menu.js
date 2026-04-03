@@ -233,7 +233,7 @@ const menuData = [
     { section: "beverages", cat: "Mocktails", name: "Muskmelon Mojito", price: "220", img: "", desc: "Sweet muskmelon blended with fresh mint and lime — light, cooling, and summery" },
     { section: "beverages", cat: "Mocktails", name: "Flamingo (Dragon Fruit Mojito)", price: "260", img: "", desc: "Exotic dragon fruit muddled with mint and lime — strikingly vibrant, tropical, and refreshing" },
     { section: "beverages", cat: "Mocktails", name: "Chilli Pineapple Mojito 🌶️", price: "220", img: "", desc: "Sweet pineapple with a fiery chilli kick, balanced with mint and lime — bold, tropical, and exciting" },
-
+    { section: "beverages", cat: "Mocktails", name: "Orange Spice", price: "200", img: "", desc: "Zesty fresh orange juice infused with warming spices and a hint of mint — vibrant, bold, and refreshingly unique" },
 
     // ── ICED TEA ──────────────────────────────────────────────
     { section: "beverages", cat: "Iced Tea", name: "Lemon Mint Iced Tea", price: "190", img: "images/beverages/lemon mint iced.jpeg", desc: "Zesty lemon and cool mint blended with chilled tea" },
